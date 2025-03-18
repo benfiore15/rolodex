@@ -19,5 +19,25 @@ const PORT = 3000;
 app.use(cors()); // Enable CORS for all routes
 app.use(express.json()); // Middleware to parse JSON bodies
 
-console.log("Hello, world!")
+// console.log("Hello, world!")
 
+
+
+// Endpoint to read and send JSON file content
+app.get('/people', async (req, res) => {
+    try {
+        const client = await MongoClient.connect(url);
+        const db = client.db(dbName);
+        const collection = db.collection(collectionName);
+        const people = await collection.find({}).toArray();
+        res.json(people);
+        console.log(people);
+    } catch (err) {
+        console.error("Error:", err);
+        res.status(500).send("ERROR: Unable to find people from server");
+    }
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on http://localhost:${PORT}`);
+});

@@ -1,0 +1,803 @@
+
+[
+  {
+    "name": "John Doe",
+    "work_id": "WID001",
+    "phone_number": "555-1234",
+    "job_role": "Software Engineer",
+    "work_location": "New York",
+    "salary": 95000
+  },
+  {
+    "name": "Jane Smith",
+    "work_id": "WID002",
+    "phone_number": "555-2345",
+    "job_role": "Project Manager",
+    "work_location": "San Francisco",
+    "salary": 105000
+  },
+  {
+    "name": "Alice Brown",
+    "work_id": "WID003",
+    "phone_number": "555-3456",
+    "job_role": "Data Scientist",
+    "work_location": "Boston",
+    "salary": 115000
+  },
+  {
+    "name": "Bob Johnson",
+    "work_id": "WID004",
+    "phone_number": "555-4567",
+    "job_role": "HR Specialist",
+    "work_location": "Chicago",
+    "salary": 70000
+  },
+  {
+    "name": "Charlie Davis",
+    "work_id": "WID005",
+    "phone_number": "555-5678",
+    "job_role": "UX Designer",
+    "work_location": "Austin",
+    "salary": 85000
+  },
+  {
+    "name": "Eve Martin",
+    "work_id": "WID006",
+    "phone_number": "555-6789",
+    "job_role": "Marketing Manager",
+    "work_location": "Miami",
+    "salary": 90000
+  },
+  {
+    "name": "David Lee",
+    "work_id": "WID007",
+    "phone_number": "555-7890",
+    "job_role": "Software Developer",
+    "work_location": "Seattle",
+    "salary": 105000
+  },
+  {
+    "name": "Grace Williams",
+    "work_id": "WID008",
+    "phone_number": "555-8901",
+    "job_role": "Sales Manager",
+    "work_location": "Los Angeles",
+    "salary": 98000
+  },
+  {
+    "name": "Hannah Wilson",
+    "work_id": "WID009",
+    "phone_number": "555-9012",
+    "job_role": "Financial Analyst",
+    "work_location": "Denver",
+    "salary": 92000
+  },
+  {
+    "name": "Isaac Moore",
+    "work_id": "WID010",
+    "phone_number": "555-0123",
+    "job_role": "Systems Analyst",
+    "work_location": "Atlanta",
+    "salary": 97000
+  },
+  {
+    "name": "Jack Taylor",
+    "work_id": "WID011",
+    "phone_number": "555-1235",
+    "job_role": "Accountant",
+    "work_location": "New York",
+    "salary": 85000
+  },
+  {
+    "name": "Karen Anderson",
+    "work_id": "WID012",
+    "phone_number": "555-2346",
+    "job_role": "HR Manager",
+    "work_location": "San Francisco",
+    "salary": 102000
+  },
+  {
+    "name": "Liam Thomas",
+    "work_id": "WID013",
+    "phone_number": "555-3457",
+    "job_role": "Business Analyst",
+    "work_location": "Boston",
+    "salary": 88000
+  },
+  {
+    "name": "Megan Jackson",
+    "work_id": "WID014",
+    "phone_number": "555-4568",
+    "job_role": "Marketing Specialist",
+    "work_location": "Chicago",
+    "salary": 76000
+  },
+  {
+    "name": "Nathan Clark",
+    "work_id": "WID015",
+    "phone_number": "555-5679",
+    "job_role": "Product Manager",
+    "work_location": "Austin",
+    "salary": 110000
+  },
+  {
+    "name": "Olivia Harris",
+    "work_id": "WID016",
+    "phone_number": "555-6780",
+    "job_role": "Web Developer",
+    "work_location": "Miami",
+    "salary": 95000
+  },
+  {
+    "name": "Peter Scott",
+    "work_id": "WID017",
+    "phone_number": "555-7891",
+    "job_role": "Network Engineer",
+    "work_location": "Seattle",
+    "salary": 98000
+  },
+  {
+    "name": "Quinn Adams",
+    "work_id": "WID018",
+    "phone_number": "555-8902",
+    "job_role": "Product Designer",
+    "work_location": "Los Angeles",
+    "salary": 91000
+  },
+  {
+    "name": "Rachel Young",
+    "work_id": "WID019",
+    "phone_number": "555-9013",
+    "job_role": "Operations Manager",
+    "work_location": "Denver",
+    "salary": 105000
+  },
+  {
+    "name": "Steven King",
+    "work_id": "WID020",
+    "phone_number": "555-0124",
+    "job_role": "Research Scientist",
+    "work_location": "Atlanta",
+    "salary": 99000
+  },
+  {
+    "name": "Tina Moore",
+    "work_id": "WID021",
+    "phone_number": "555-1236",
+    "job_role": "Content Strategist",
+    "work_location": "New York",
+    "salary": 88000
+  },
+  {
+    "name": "Ursula White",
+    "work_id": "WID022",
+    "phone_number": "555-2347",
+    "job_role": "Customer Support",
+    "work_location": "San Francisco",
+    "salary": 64000
+  },
+  {
+    "name": "Victor Lee",
+    "work_id": "WID023",
+    "phone_number": "555-3458",
+    "job_role": "Security Analyst",
+    "work_location": "Boston",
+    "salary": 100000
+  },
+  {
+    "name": "Wendy Brown",
+    "work_id": "WID024",
+    "phone_number": "555-4569",
+    "job_role": "Operations Coordinator",
+    "work_location": "Chicago",
+    "salary": 72000
+  },
+  {
+    "name": "Xander White",
+    "work_id": "WID025",
+    "phone_number": "555-5670",
+    "job_role": "Social Media Manager",
+    "work_location": "Austin",
+    "salary": 86000
+  },
+  {
+    "name": "Yvonne Harris",
+    "work_id": "WID026",
+    "phone_number": "555-6781",
+    "job_role": "Data Engineer",
+    "work_location": "Miami",
+    "salary": 102000
+  },
+  {
+    "name": "Zachary Jones",
+    "work_id": "WID027",
+    "phone_number": "555-7892",
+    "job_role": "IT Manager",
+    "work_location": "Seattle",
+    "salary": 105000
+  },
+  {
+    "name": "Aidan Nelson",
+    "work_id": "WID028",
+    "phone_number": "555-8903",
+    "job_role": "Financial Advisor",
+    "work_location": "Los Angeles",
+    "salary": 95000
+  },
+  {
+    "name": "Bella Martinez",
+    "work_id": "WID029",
+    "phone_number": "555-9014",
+    "job_role": "Product Marketing Manager",
+    "work_location": "Denver",
+    "salary": 102500
+  },
+  {
+    "name": "Caleb Jackson",
+    "work_id": "WID030",
+    "phone_number": "555-0125",
+    "job_role": "Sales Representative",
+    "work_location": "Atlanta",
+    "salary": 78000
+  },
+  {
+    "name": "Danielle Green",
+    "work_id": "WID031",
+    "phone_number": "555-1237",
+    "job_role": "Business Development",
+    "work_location": "New York",
+    "salary": 105000
+  },
+  {
+    "name": "Elliot Collins",
+    "work_id": "WID032",
+    "phone_number": "555-2348",
+    "job_role": "HR Assistant",
+    "work_location": "San Francisco",
+    "salary": 67000
+  },
+  {
+    "name": "Fiona Carter",
+    "work_id": "WID033",
+    "phone_number": "555-3459",
+    "job_role": "Content Writer",
+    "work_location": "Boston",
+    "salary": 60000
+  },
+  {
+    "name": "George Mitchell",
+    "work_id": "WID034",
+    "phone_number": "555-4560",
+    "job_role": "Product Owner",
+    "work_location": "Chicago",
+    "salary": 108000
+  },
+  {
+    "name": "Holly Evans",
+    "work_id": "WID035",
+    "phone_number": "555-5671",
+    "job_role": "Operations Director",
+    "work_location": "Austin",
+    "salary": 120000
+  },
+  {
+    "name": "Isaiah Morris",
+    "work_id": "WID036",
+    "phone_number": "555-6782",
+    "job_role": "Full Stack Developer",
+    "work_location": "Miami",
+    "salary": 98000
+  },
+  {
+    "name": "Julia Gonzalez",
+    "work_id": "WID037",
+    "phone_number": "555-7893",
+    "job_role": "Data Analyst",
+    "work_location": "Seattle",
+    "salary": 89000
+  },
+  {
+    "name": "Kyle Robinson",
+    "work_id": "WID038",
+    "phone_number": "555-8904",
+    "job_role": "Mobile Developer",
+    "work_location": "Los Angeles",
+    "salary": 102000
+  },
+  {
+    "name": "Leah Turner",
+    "work_id": "WID039",
+    "phone_number": "555-9015",
+    "job_role": "Customer Support Manager",
+    "work_location": "Denver",
+    "salary": 88000
+  },
+  {
+    "name": "Max Harrison",
+    "work_id": "WID040",
+    "phone_number": "555-0126",
+    "job_role": "Systems Architect",
+    "work_location": "Atlanta",
+    "salary": 125000
+  },
+  {
+    "name": "Nina Perez",
+    "work_id": "WID041",
+    "phone_number": "555-1238",
+    "job_role": "Research Analyst",
+    "work_location": "New York",
+    "salary": 77000
+  },
+  {
+    "name": "Oscar Sanchez",
+    "work_id": "WID042",
+    "phone_number": "555-2349",
+    "job_role": "Web Designer",
+    "work_location": "San Francisco",
+    "salary": 85000
+  },
+  {
+    "name": "Piper Carter",
+    "work_id": "WID043",
+    "phone_number": "555-3450",
+    "job_role": "Video Editor",
+    "work_location": "Boston",
+    "salary": 65000
+  },
+  {
+    "name": "Quincy Adams",
+    "work_id": "WID044",
+    "phone_number": "555-4561",
+    "job_role": "SEO Specialist",
+    "work_location": "Chicago",
+    "salary": 75000
+  },
+  {
+    "name": "Rachel Scott",
+    "work_id": "WID045",
+    "phone_number": "555-5672",
+    "job_role": "Product Marketing Specialist",
+    "work_location": "Austin",
+    "salary": 92000
+  },
+  {
+    "name": "Sam Clark",
+    "work_id": "WID046",
+    "phone_number": "555-6783",
+    "job_role": "Content Creator",
+    "work_location": "Miami",
+    "salary": 72000
+  },
+  {
+    "name": "Tracy Moore",
+    "work_id": "WID047",
+    "phone_number": "555-7894",
+    "job_role": "Research Scientist",
+    "work_location": "Seattle",
+    "salary": 98000
+  },
+  {
+    "name": "Ulysses Taylor",
+    "work_id": "WID048",
+    "phone_number": "555-8905",
+    "job_role": "Business Analyst",
+    "work_location": "Los Angeles",
+    "salary": 95000
+  },
+  {
+    "name": "Victoria Perez",
+    "work_id": "WID049",
+    "phone_number": "555-9016",
+    "job_role": "Chief Marketing Officer",
+    "work_location": "Denver",
+    "salary": 135000
+  },
+  {
+    "name": "William King",
+    "work_id": "WID050",
+    "phone_number": "555-0127",
+    "job_role": "Software Architect",
+    "work_location": "Atlanta",
+    "salary": 120000
+  },
+  {
+    "name": "Xena Harris",
+    "work_id": "WID051",
+    "phone_number": "555-1239",
+    "job_role": "Financial Planner",
+    "work_location": "New York",
+    "salary": 89000
+  },
+  {
+    "name": "Yara Mitchell",
+    "work_id": "WID052",
+    "phone_number": "555-2340",
+    "job_role": "Sales Executive",
+    "work_location": "San Francisco",
+    "salary": 92000
+  },
+  {
+    "name": "Zane Nelson",
+    "work_id": "WID053",
+    "phone_number": "555-3451",
+    "job_role": "Data Scientist",
+    "work_location": "Boston",
+    "salary": 108000
+  },
+  {
+    "name": "Aaron Parker",
+    "work_id": "WID054",
+    "phone_number": "555-4562",
+    "job_role": "Software Developer",
+    "work_location": "Chicago",
+    "salary": 95000
+  },
+  {
+    "name": "Brenda Lee",
+    "work_id": "WID055",
+    "phone_number": "555-5673",
+    "job_role": "Project Coordinator",
+    "work_location": "Austin",
+    "salary": 75000
+  },
+  {
+    "name": "Charles Allen",
+    "work_id": "WID056",
+    "phone_number": "555-6784",
+    "job_role": "Business Intelligence Analyst",
+    "work_location": "Miami",
+    "salary": 105000
+  },
+  {
+    "name": "Diana Thomas",
+    "work_id": "WID057",
+    "phone_number": "555-7895",
+    "job_role": "Graphic Designer",
+    "work_location": "Seattle",
+    "salary": 75000
+  },
+  {
+    "name": "Edward Gonzalez",
+    "work_id": "WID058",
+    "phone_number": "555-8906",
+    "job_role": "Software Engineer",
+    "work_location": "Los Angeles",
+    "salary": 98000
+  },
+  {
+    "name": "Felicity King",
+    "work_id": "WID059",
+    "phone_number": "555-9017",
+    "job_role": "Operations Specialist",
+    "work_location": "Denver",
+    "salary": 82000
+  },
+  {
+    "name": "George Johnson",
+    "work_id": "WID060",
+    "phone_number": "555-0128",
+    "job_role": "Senior Developer",
+    "work_location": "Atlanta",
+    "salary": 115000
+  },
+  {
+    "name": "Heather Scott",
+    "work_id": "WID061",
+    "phone_number": "555-1230",
+    "job_role": "Account Executive",
+    "work_location": "New York",
+    "salary": 93000
+  },
+  {
+    "name": "Ian Martinez",
+    "work_id": "WID062",
+    "phone_number": "555-2341",
+    "job_role": "Research Analyst",
+    "work_location": "San Francisco",
+    "salary": 78000
+  },
+  {
+    "name": "Jill Wright",
+    "work_id": "WID063",
+    "phone_number": "555-3452",
+    "job_role": "Data Analyst",
+    "work_location": "Boston",
+    "salary": 88000
+  },
+  {
+    "name": "Kirk Brown",
+    "work_id": "WID064",
+    "phone_number": "555-4563",
+    "job_role": "System Administrator",
+    "work_location": "Chicago",
+    "salary": 97000
+  },
+  {
+    "name": "Lily Harris",
+    "work_id": "WID065",
+    "phone_number": "555-5674",
+    "job_role": "Social Media Specialist",
+    "work_location": "Austin",
+    "salary": 64000
+  },
+  {
+    "name": "Michael Adams",
+    "work_id": "WID066",
+    "phone_number": "555-6785",
+    "job_role": "Content Strategist",
+    "work_location": "Miami",
+    "salary": 89000
+  },
+  {
+    "name": "Nina Kelly",
+    "work_id": "WID067",
+    "phone_number": "555-7896",
+    "job_role": "Security Engineer",
+    "work_location": "Seattle",
+    "salary": 104000
+  },
+  {
+    "name": "Oscar Davis",
+    "work_id": "WID068",
+    "phone_number": "555-8907",
+    "job_role": "Operations Analyst",
+    "work_location": "Los Angeles",
+    "salary": 90000
+  },
+  {
+    "name": "Pamela Williams",
+    "work_id": "WID069",
+    "phone_number": "555-9018",
+    "job_role": "Client Services Manager",
+    "work_location": "Denver",
+    "salary": 94000
+  },
+  {
+    "name": "Quincy Miller",
+    "work_id": "WID070",
+    "phone_number": "555-0129",
+    "job_role": "Financial Analyst",
+    "work_location": "Atlanta",
+    "salary": 95000
+  },
+  {
+    "name": "Rebecca Moore",
+    "work_id": "WID071",
+    "phone_number": "555-1231",
+    "job_role": "Product Developer",
+    "work_location": "New York",
+    "salary": 104000
+  },
+  {
+    "name": "Samuel Wilson",
+    "work_id": "WID072",
+    "phone_number": "555-2342",
+    "job_role": "Sales Executive",
+    "work_location": "San Francisco",
+    "salary": 98000
+  },
+  {
+    "name": "Travis Walker",
+    "work_id": "WID073",
+    "phone_number": "555-3453",
+    "job_role": "Sales Analyst",
+    "work_location": "Boston",
+    "salary": 87000
+  },
+  {
+    "name": "Ursula Simmons",
+    "work_id": "WID074",
+    "phone_number": "555-4564",
+    "job_role": "Systems Engineer",
+    "work_location": "Chicago",
+    "salary": 102000
+  },
+  {
+    "name": "Victor Hernandez",
+    "work_id": "WID075",
+    "phone_number": "555-5675",
+    "job_role": "Digital Marketing Specialist",
+    "work_location": "Austin",
+    "salary": 88000
+  },
+  {
+    "name": "Wendy Thompson",
+    "work_id": "WID076",
+    "phone_number": "555-6786",
+    "job_role": "Product Manager",
+    "work_location": "Miami",
+    "salary": 116000
+  },
+  {
+    "name": "Xander Robinson",
+    "work_id": "WID077",
+    "phone_number": "555-7897",
+    "job_role": "Web Developer",
+    "work_location": "Seattle",
+    "salary": 99000
+  },
+  {
+    "name": "Yasmine Clark",
+    "work_id": "WID078",
+    "phone_number": "555-8908",
+    "job_role": "Business Development Manager",
+    "work_location": "Los Angeles",
+    "salary": 108000
+  },
+  {
+    "name": "Zachary Thompson",
+    "work_id": "WID079",
+    "phone_number": "555-9019",
+    "job_role": "Senior Analyst",
+    "work_location": "Denver",
+    "salary": 102000
+  },
+  {
+    "name": "Amelia Price",
+    "work_id": "WID080",
+    "phone_number": "555-0120",
+    "job_role": "Market Research Analyst",
+    "work_location": "Atlanta",
+    "salary": 89000
+  },
+  {
+    "name": "Blake Cooper",
+    "work_id": "WID081",
+    "phone_number": "555-1232",
+    "job_role": "Creative Director",
+    "work_location": "New York",
+    "salary": 125000
+  },
+  {
+    "name": "Chloe Edwards",
+    "work_id": "WID082",
+    "phone_number": "555-2343",
+    "job_role": "Event Coordinator",
+    "work_location": "San Francisco",
+    "salary": 67000
+  },
+  {
+    "name": "Dylan Foster",
+    "work_id": "WID083",
+    "phone_number": "555-3454",
+    "job_role": "Public Relations Specialist",
+    "work_location": "Boston",
+    "salary": 85000
+  },
+  {
+    "name": "Ella Richardson",
+    "work_id": "WID084",
+    "phone_number": "555-4565",
+    "job_role": "Program Manager",
+    "work_location": "Chicago",
+    "salary": 103000
+  },
+  {
+    "name": "Finn Sullivan",
+    "work_id": "WID085",
+    "phone_number": "555-5676",
+    "job_role": "Data Entry Specialist",
+    "work_location": "Austin",
+    "salary": 45000
+  },
+  {
+    "name": "Gina Ross",
+    "work_id": "WID086",
+    "phone_number": "555-6787",
+    "job_role": "SEO Manager",
+    "work_location": "Miami",
+    "salary": 95000
+  },
+  {
+    "name": "Hank Gray",
+    "work_id": "WID087",
+    "phone_number": "555-7898",
+    "job_role": "Network Administrator",
+    "work_location": "Seattle",
+    "salary": 105000
+  },
+  {
+    "name": "Ivy Mitchell",
+    "work_id": "WID088",
+    "phone_number": "555-8909",
+    "job_role": "Technical Support",
+    "work_location": "Los Angeles",
+    "salary": 75000
+  },
+  {
+    "name": "Jackie Carter",
+    "work_id": "WID089",
+    "phone_number": "555-9010",
+    "job_role": "Executive Assistant",
+    "work_location": "Denver",
+    "salary": 62000
+  },
+  {
+    "name": "Kyle Brooks",
+    "work_id": "WID090",
+    "phone_number": "555-0121",
+    "job_role": "Research Director",
+    "work_location": "Atlanta",
+    "salary": 130000
+  },
+  {
+    "name": "Lena Cooper",
+    "work_id": "WID091",
+    "phone_number": "555-1233",
+    "job_role": "IT Support Specialist",
+    "work_location": "New York",
+    "salary": 85000
+  },
+  {
+    "name": "Maya Stevens",
+    "work_id": "WID092",
+    "phone_number": "555-2344",
+    "job_role": "Business Intelligence Developer",
+    "work_location": "San Francisco",
+    "salary": 98000
+  },
+  {
+    "name": "Nathan Hall",
+    "work_id": "WID093",
+    "phone_number": "555-3455",
+    "job_role": "Business Consultant",
+    "work_location": "Boston",
+    "salary": 120000
+  },
+  {
+    "name": "Olivia Gonzalez",
+    "work_id": "WID094",
+    "phone_number": "555-4566",
+    "job_role": "Customer Success Manager",
+    "work_location": "Chicago",
+    "salary": 100000
+  },
+  {
+    "name": "Paul Hughes",
+    "work_id": "WID095",
+    "phone_number": "555-5677",
+    "job_role": "Talent Acquisition Specialist",
+    "work_location": "Austin",
+    "salary": 90000
+  },
+  {
+    "name": "Quinn Foster",
+    "work_id": "WID096",
+    "phone_number": "555-6788",
+    "job_role": "Lead Developer",
+    "work_location": "Miami",
+    "salary": 115000
+  },
+  {
+    "name": "Riley Murphy",
+    "work_id": "WID097",
+    "phone_number": "555-7899",
+    "job_role": "Team Lead",
+    "work_location": "Seattle",
+    "salary": 110000
+  },
+  {
+    "name": "Sophia Walker",
+    "work_id": "WID098",
+    "phone_number": "555-8900",
+    "job_role": "Chief Financial Officer",
+    "work_location": "Los Angeles",
+    "salary": 150000
+  },
+  {
+    "name": "Thomas Turner",
+    "work_id": "WID099",
+    "phone_number": "555-9011",
+    "job_role": "Chief Technology Officer",
+    "work_location": "Denver",
+    "salary": 160000
+  },
+  {
+    "name": "Uma Reed",
+    "work_id": "WID100",
+    "phone_number": "555-0122",
+    "job_role": "Operations Specialist",
+    "work_location": "Atlanta",
+    "salary": 88000
+  }
+]

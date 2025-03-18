@@ -39,5 +39,5 @@ app.get('/people', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`Hello world! \nServer is running on http://localhost:${PORT}`);
 });

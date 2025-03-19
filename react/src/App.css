@@ -40,3 +40,41 @@
 .read-the-docs {
   color: #888;
 }
+
+.table-container {
+  position: relative; /* Make the container a positioned element */
+  display: inline-block; /* Adjust as needed */
+}
+
+.overlay-span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7); /* Optional: Add a background color */
+  padding: 5px; /* Optional: Add some padding */
+  z-index: 1; /* Ensure the span is on top */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.salary-blur {
+  filter: blur(5px);
+}
+
+.locked-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+}

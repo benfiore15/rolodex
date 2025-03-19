@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function LoginForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const { login } = null;
+    // const { login } = null;
     const navigate = useNavigate();
 
     const handleLogin = async (event) => {
@@ -16,7 +16,7 @@ function LoginForm() {
 
     return (
         <div className="container">
-            <form onSubmit={handleLogin} className="mt-5">
+            <form className="mt-5">
                 <div className="form-group">
                     <label htmlFor="username">Username</label>
                     <input

@@ -5,6 +5,7 @@ import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Table from './Table';
+import HR_Table from "./HR_Table";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -20,6 +21,25 @@ function App() {
             }
             const json_response = await response.json();
             setData(json_response); // assign JSON response to the data variable.
+        } catch (error) {
+            console.error('Error fetching socks:', error);
+        }
+    };
+
+    fetchData();
+  }, [])
+
+  const [hr_data, sethrData] = useState([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+        try {
+            const response = await fetch(import.meta.env.VITE_HR_API_URL);
+            if (!response.ok) {
+                throw new Error('Data could not be fetched!');
+            }
+            const json_response = await response.json();
+            sethrData(json_response); // assign JSON response to the data variable.
         } catch (error) {
             console.error('Error fetching socks:', error);
         }
@@ -50,6 +70,11 @@ function App() {
       <div className="card">
         <h1> List of People </h1>
         <Table tableData={data} />
+      </div>
+
+      <div className="card">
+        <h1> Human Resources </h1>
+        <HR_Table HRTableData={hr_data} />
       </div>
 
       <p className="read-the-docs">

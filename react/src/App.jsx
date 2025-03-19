@@ -14,6 +14,7 @@ import LoginForm from "./components/LoginForm.jsx";
 import Table from './components/Table.jsx';
 
 import { AuthProvider } from "./hooks/AuthContext";
+import HR_Table from "./HR_Table";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -122,6 +123,25 @@ function App() {
     setUserTypeInput('')
   }
 
+  const [hr_data, sethrData] = useState([])
+
+  useEffect(() => {
+    const fetchData = async () => {
+        try {
+            const response = await fetch(import.meta.env.VITE_HR_API_URL);
+            if (!response.ok) {
+                throw new Error('Data could not be fetched!');
+            }
+            const json_response = await response.json();
+            sethrData(json_response); // assign JSON response to the data variable.
+        } catch (error) {
+            console.error('Error fetching socks:', error);
+        }
+    };
+
+    fetchData();
+  }, [])
+
   return (
     <>
     <Router>
@@ -136,6 +156,11 @@ function App() {
           </Routes>
         </AuthProvider>
         
+      </div>
+
+      <div className="card">
+        <h1> Human Resources </h1>
+        <HR_Table HRTableData={hr_data} />
       </div>
 
       <p className="read-the-docs">

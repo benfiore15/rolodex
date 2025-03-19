@@ -1,0 +1,1080 @@
+[{
+  "_id": {
+    "$oid": "67dad53561bddf67de5621de"
+  },
+  "id": 6,
+  "first_name": "Guendolen",
+  "last_name": "Andreaccio",
+  "job_role": "HR Specialist",
+  "office_loc": "San Diego",
+  "phone_no": "721-129-6783",
+  "salary": "$127398.29",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562206"
+  },
+  "id": 46,
+  "first_name": "Charis",
+  "last_name": "Ineson",
+  "job_role": "HR Specialist",
+  "office_loc": "Providence",
+  "phone_no": "454-206-6436",
+  "salary": "$113869.76",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562209"
+  },
+  "id": 49,
+  "first_name": "Carlita",
+  "last_name": "Foxhall",
+  "job_role": "HR Specialist",
+  "office_loc": "Portland",
+  "phone_no": "539-447-8648",
+  "salary": "$82224.05",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562223"
+  },
+  "id": 75,
+  "first_name": "Luke",
+  "last_name": "Charter",
+  "job_role": "HR Specialist",
+  "office_loc": "St Louis",
+  "phone_no": "803-634-3965",
+  "salary": "$119898.92",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56222c"
+  },
+  "id": 84,
+  "first_name": "Reynolds",
+  "last_name": "Cholton",
+  "job_role": "HR Specialist",
+  "office_loc": "Paris",
+  "phone_no": "283-207-5909",
+  "salary": "$107285.28",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56222f"
+  },
+  "id": 87,
+  "first_name": "Brendan",
+  "last_name": "Hales",
+  "job_role": "HR Specialist",
+  "office_loc": "New York",
+  "phone_no": "377-316-4851",
+  "salary": "$45102.33",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562261"
+  },
+  "id": 137,
+  "first_name": "Laird",
+  "last_name": "Blann",
+  "job_role": "HR Specialist",
+  "office_loc": "Boston",
+  "phone_no": "780-463-8203",
+  "salary": "$85996.52",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622b2"
+  },
+  "id": 218,
+  "first_name": "Elladine",
+  "last_name": "Burnyate",
+  "job_role": "HR Specialist",
+  "office_loc": "St Louis",
+  "phone_no": "202-977-1909",
+  "salary": "$84479.42",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622d3"
+  },
+  "id": 251,
+  "first_name": "Raff",
+  "last_name": "Chaldecott",
+  "job_role": "HR Specialist",
+  "office_loc": "Portland",
+  "phone_no": "402-517-3267",
+  "salary": "$124383.57",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622d4"
+  },
+  "id": 252,
+  "first_name": "Jenica",
+  "last_name": "Goodge",
+  "job_role": "HR Specialist",
+  "office_loc": "Houston",
+  "phone_no": "224-793-4392",
+  "salary": "$48877.48",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622f3"
+  },
+  "id": 283,
+  "first_name": "Lind",
+  "last_name": "Gerardi",
+  "job_role": "HR Specialist",
+  "office_loc": "Minneapolis",
+  "phone_no": "947-797-2725",
+  "salary": "$124660.10",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56230d"
+  },
+  "id": 309,
+  "first_name": "Cherrita",
+  "last_name": "Grennan",
+  "job_role": "HR Specialist",
+  "office_loc": "London",
+  "phone_no": "782-869-4028",
+  "salary": "$71406.10",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56230f"
+  },
+  "id": 311,
+  "first_name": "Franky",
+  "last_name": "Matuska",
+  "job_role": "HR Specialist",
+  "office_loc": "Irvine",
+  "phone_no": "907-167-7852",
+  "salary": "$107072.97",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56232c"
+  },
+  "id": 340,
+  "first_name": "Lynnett",
+  "last_name": "Brandham",
+  "job_role": "HR Specialist",
+  "office_loc": "Atlanta",
+  "phone_no": "932-140-9339",
+  "salary": "$69968.11",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562333"
+  },
+  "id": 347,
+  "first_name": "Nerte",
+  "last_name": "Kalkofen",
+  "job_role": "HR Specialist",
+  "office_loc": "Providence",
+  "phone_no": "927-747-5528",
+  "salary": "$81821.30",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56233b"
+  },
+  "id": 355,
+  "first_name": "Marilin",
+  "last_name": "Gaine",
+  "job_role": "HR Specialist",
+  "office_loc": "Portland",
+  "phone_no": "410-626-0339",
+  "salary": "$112114.66",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562352"
+  },
+  "id": 378,
+  "first_name": "Neill",
+  "last_name": "Manes",
+  "job_role": "HR Specialist",
+  "office_loc": "Minneapolis",
+  "phone_no": "588-986-2586",
+  "salary": "$81719.04",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56237e"
+  },
+  "id": 422,
+  "first_name": "Yale",
+  "last_name": "Ivanenkov",
+  "job_role": "HR Specialist",
+  "office_loc": "St Louis",
+  "phone_no": "485-881-8604",
+  "salary": "$124975.56",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623c2"
+  },
+  "id": 490,
+  "first_name": "Warren",
+  "last_name": "Clipsham",
+  "job_role": "HR Specialist",
+  "office_loc": "Boston",
+  "phone_no": "533-105-8089",
+  "salary": "$122609.95",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623da"
+  },
+  "id": 514,
+  "first_name": "Valentine",
+  "last_name": "Moncaster",
+  "job_role": "HR Specialist",
+  "office_loc": "New York",
+  "phone_no": "378-568-8214",
+  "salary": "$85921.74",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623dc"
+  },
+  "id": 516,
+  "first_name": "Cobb",
+  "last_name": "Matej",
+  "job_role": "HR Specialist",
+  "office_loc": "San Diego",
+  "phone_no": "583-315-7762",
+  "salary": "$90324.82",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623ea"
+  },
+  "id": 530,
+  "first_name": "Cory",
+  "last_name": "Kobierski",
+  "job_role": "HR Specialist",
+  "office_loc": "San Diego",
+  "phone_no": "364-377-9846",
+  "salary": "$79108.46",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623ed"
+  },
+  "id": 533,
+  "first_name": "Ofelia",
+  "last_name": "Baglin",
+  "job_role": "HR Specialist",
+  "office_loc": "Tokyo",
+  "phone_no": "109-671-2639",
+  "salary": "$81238.05",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623fc"
+  },
+  "id": 548,
+  "first_name": "Aile",
+  "last_name": "Kington",
+  "job_role": "HR Specialist",
+  "office_loc": "Boston",
+  "phone_no": "316-606-9223",
+  "salary": "$104222.80",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56240c"
+  },
+  "id": 564,
+  "first_name": "Morgan",
+  "last_name": "Revill",
+  "job_role": "HR Specialist",
+  "office_loc": "Minneapolis",
+  "phone_no": "326-303-9406",
+  "salary": "$132223.91",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562432"
+  },
+  "id": 602,
+  "first_name": "Claudelle",
+  "last_name": "M'Quhan",
+  "job_role": "HR Specialist",
+  "office_loc": "San Diego",
+  "phone_no": "207-242-7430",
+  "salary": "$91302.56",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562435"
+  },
+  "id": 605,
+  "first_name": "Patricia",
+  "last_name": "Benedite",
+  "job_role": "HR Specialist",
+  "office_loc": "Houston",
+  "phone_no": "696-543-3377",
+  "salary": "$117258.35",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562442"
+  },
+  "id": 618,
+  "first_name": "Alexandra",
+  "last_name": "Cockerill",
+  "job_role": "HR Specialist",
+  "office_loc": "Hartford",
+  "phone_no": "164-326-3900",
+  "salary": "$82653.91",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562446"
+  },
+  "id": 622,
+  "first_name": "Chloe",
+  "last_name": "Hapke",
+  "job_role": "HR Specialist",
+  "office_loc": "Providence",
+  "phone_no": "749-196-1055",
+  "salary": "$83775.26",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562484"
+  },
+  "id": 684,
+  "first_name": "William",
+  "last_name": "Caslake",
+  "job_role": "HR Specialist",
+  "office_loc": "New York",
+  "phone_no": "110-889-7374",
+  "salary": "$127852.79",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56248c"
+  },
+  "id": 692,
+  "first_name": "Lilia",
+  "last_name": "Mayfield",
+  "job_role": "HR Specialist",
+  "office_loc": "Hartford",
+  "phone_no": "973-373-7086",
+  "salary": "$80644.02",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562492"
+  },
+  "id": 698,
+  "first_name": "Sherri",
+  "last_name": "Jerratsch",
+  "job_role": "HR Specialist",
+  "office_loc": "Atlanta",
+  "phone_no": "286-288-9112",
+  "salary": "$89890.04",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624c3"
+  },
+  "id": 747,
+  "first_name": "Julieta",
+  "last_name": "Davion",
+  "job_role": "HR Specialist",
+  "office_loc": "Portland",
+  "phone_no": "804-728-8393",
+  "salary": "$129164.91",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624cf"
+  },
+  "id": 759,
+  "first_name": "Siobhan",
+  "last_name": "Woodhall",
+  "job_role": "HR Specialist",
+  "office_loc": "New York",
+  "phone_no": "898-581-0768",
+  "salary": "$116320.53",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624f1"
+  },
+  "id": 793,
+  "first_name": "Maible",
+  "last_name": "Stillmann",
+  "job_role": "HR Specialist",
+  "office_loc": "St Paul",
+  "phone_no": "438-717-7250",
+  "salary": "$89244.62",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56254c"
+  },
+  "id": 884,
+  "first_name": "Ludvig",
+  "last_name": "Maloney",
+  "job_role": "HR Specialist",
+  "office_loc": "Irvine",
+  "phone_no": "458-222-1691",
+  "salary": "$111658.66",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56259e"
+  },
+  "id": 966,
+  "first_name": "Craig",
+  "last_name": "Dillingham",
+  "job_role": "HR Specialist",
+  "office_loc": "Dallas",
+  "phone_no": "183-650-1942",
+  "salary": "$70834.51",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5625b3"
+  },
+  "id": 987,
+  "first_name": "Thaine",
+  "last_name": "Jeffers",
+  "job_role": "HR Specialist",
+  "office_loc": "Paris",
+  "phone_no": "598-515-2676",
+  "salary": "$123471.72",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5625be"
+  },
+  "id": 998,
+  "first_name": "Raff",
+  "last_name": "Farrant",
+  "job_role": "HR Specialist",
+  "office_loc": "Tokyo",
+  "phone_no": "622-813-8369",
+  "salary": "$96864.53",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+    "_id": {
+      "$oid": "67dad53561bddf67de5621e4"
+    },
+    "id": 12,
+    "first_name": "Piper",
+    "last_name": "Tremlett",
+    "job_role": "HR Manager",
+    "office_loc": "Minneapolis",
+    "phone_no": "583-190-3205",
+    "salary": "$107873.26",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562215"
+    },
+    "id": 61,
+    "first_name": "Ezri",
+    "last_name": "Balint",
+    "job_role": "HR Manager",
+    "office_loc": "Houston",
+    "phone_no": "842-252-6014",
+    "salary": "$53645.87",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56221f"
+    },
+    "id": 71,
+    "first_name": "Letisha",
+    "last_name": "Welburn",
+    "job_role": "HR Manager",
+    "office_loc": "New York",
+    "phone_no": "773-831-8895",
+    "salary": "$70202.64",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562266"
+    },
+    "id": 142,
+    "first_name": "Melody",
+    "last_name": "Bruckmann",
+    "job_role": "HR Manager",
+    "office_loc": "Houston",
+    "phone_no": "770-219-4171",
+    "salary": "$86948.15",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56226a"
+    },
+    "id": 146,
+    "first_name": "Vaughn",
+    "last_name": "Tethacot",
+    "job_role": "HR Manager",
+    "office_loc": "Dallas",
+    "phone_no": "185-101-3760",
+    "salary": "$117100.14",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56226b"
+    },
+    "id": 147,
+    "first_name": "Sanson",
+    "last_name": "Wastall",
+    "job_role": "HR Manager",
+    "office_loc": "St Paul",
+    "phone_no": "795-697-9005",
+    "salary": "$125759.98",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56226d"
+    },
+    "id": 149,
+    "first_name": "Sophie",
+    "last_name": "Curzey",
+    "job_role": "HR Manager",
+    "office_loc": "Atlanta",
+    "phone_no": "227-322-5538",
+    "salary": "$93907.10",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56226e"
+    },
+    "id": 150,
+    "first_name": "Ly",
+    "last_name": "Olivie",
+    "job_role": "HR Manager",
+    "office_loc": "London",
+    "phone_no": "637-159-1555",
+    "salary": "$64674.43",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562284"
+    },
+    "id": 172,
+    "first_name": "Udell",
+    "last_name": "Strowger",
+    "job_role": "HR Manager",
+    "office_loc": "Boston",
+    "phone_no": "730-826-0227",
+    "salary": "$109851.08",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5622a6"
+    },
+    "id": 206,
+    "first_name": "Annamaria",
+    "last_name": "Newcombe",
+    "job_role": "HR Manager",
+    "office_loc": "London",
+    "phone_no": "372-413-9481",
+    "salary": "$120790.26",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5622b9"
+    },
+    "id": 225,
+    "first_name": "Crystie",
+    "last_name": "I'anson",
+    "job_role": "HR Manager",
+    "office_loc": "Portland",
+    "phone_no": "540-910-8945",
+    "salary": "$108014.87",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562304"
+    },
+    "id": 300,
+    "first_name": "Corrine",
+    "last_name": "Berrick",
+    "job_role": "HR Manager",
+    "office_loc": "Irvine",
+    "phone_no": "823-200-8448",
+    "salary": "$72450.53",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562361"
+    },
+    "id": 393,
+    "first_name": "Aksel",
+    "last_name": "Endean",
+    "job_role": "HR Manager",
+    "office_loc": "San Diego",
+    "phone_no": "713-496-6718",
+    "salary": "$68801.51",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562379"
+    },
+    "id": 417,
+    "first_name": "Vanya",
+    "last_name": "Pepperd",
+    "job_role": "HR Manager",
+    "office_loc": "San Diego",
+    "phone_no": "432-748-2093",
+    "salary": "$125492.07",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5623b4"
+    },
+    "id": 476,
+    "first_name": "Iolanthe",
+    "last_name": "Smallbone",
+    "job_role": "HR Manager",
+    "office_loc": "Houston",
+    "phone_no": "249-427-3645",
+    "salary": "$106023.26",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5623bb"
+    },
+    "id": 483,
+    "first_name": "Claude",
+    "last_name": "Worsley",
+    "job_role": "HR Manager",
+    "office_loc": "Portland",
+    "phone_no": "344-208-3873",
+    "salary": "$82612.91",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5623c1"
+    },
+    "id": 489,
+    "first_name": "Isaiah",
+    "last_name": "Gile",
+    "job_role": "HR Manager",
+    "office_loc": "Atlanta",
+    "phone_no": "457-986-5322",
+    "salary": "$128612.36",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5623c7"
+    },
+    "id": 495,
+    "first_name": "Gilburt",
+    "last_name": "Theobold",
+    "job_role": "HR Manager",
+    "office_loc": "Hartford",
+    "phone_no": "287-571-6163",
+    "salary": "$112841.31",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562413"
+    },
+    "id": 571,
+    "first_name": "Morgun",
+    "last_name": "Schurig",
+    "job_role": "HR Manager",
+    "office_loc": "Minneapolis",
+    "phone_no": "634-424-6481",
+    "salary": "$129670.18",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562416"
+    },
+    "id": 574,
+    "first_name": "Boy",
+    "last_name": "Stoacley",
+    "job_role": "HR Manager",
+    "office_loc": "Boston",
+    "phone_no": "202-579-5978",
+    "salary": "$100839.63",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56241c"
+    },
+    "id": 580,
+    "first_name": "Mendel",
+    "last_name": "Revan",
+    "job_role": "HR Manager",
+    "office_loc": "Irvine",
+    "phone_no": "336-315-5908",
+    "salary": "$77134.63",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562480"
+    },
+    "id": 680,
+    "first_name": "Paolo",
+    "last_name": "Nanuccioi",
+    "job_role": "HR Manager",
+    "office_loc": "St Louis",
+    "phone_no": "520-271-3069",
+    "salary": "$110524.02",
+    "is_HR": null,
+    "is_manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56249f"
+    },
+    "id": 711,
+    "first_name": "Nert",
+    "last_name": "Groarty",
+    "job_role": "HR Manager",
+    "office_loc": "Portland",
+    "phone_no": "941-920-7270",
+    "salary": "$87608.12",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5624c2"
+    },
+    "id": 746,
+    "first_name": "Bradley",
+    "last_name": "Fasson",
+    "job_role": "HR Manager",
+    "office_loc": "Atlanta",
+    "phone_no": "149-520-2717",
+    "salary": "$100167.76",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5624d4"
+    },
+    "id": 764,
+    "first_name": "Lorita",
+    "last_name": "Troctor",
+    "job_role": "HR Manager",
+    "office_loc": "Boston",
+    "phone_no": "266-510-2667",
+    "salary": "$122268.98",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5624e0"
+    },
+    "id": 776,
+    "first_name": "Bobina",
+    "last_name": "Evelyn",
+    "job_role": "HR Manager",
+    "office_loc": "Houston",
+    "phone_no": "905-389-3430",
+    "salary": "$55347.24",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5624e7"
+    },
+    "id": 783,
+    "first_name": "Ardine",
+    "last_name": "Caistor",
+    "job_role": "HR Manager",
+    "office_loc": "New York",
+    "phone_no": "112-559-8979",
+    "salary": "$100323.89",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5624ea"
+    },
+    "id": 786,
+    "first_name": "Frants",
+    "last_name": "Buckler",
+    "job_role": "HR Manager",
+    "office_loc": "St Paul",
+    "phone_no": "977-751-9582",
+    "salary": "$134154.62",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562528"
+    },
+    "id": 848,
+    "first_name": "Elvira",
+    "last_name": "McCooke",
+    "job_role": "HR Manager",
+    "office_loc": "Seattle",
+    "phone_no": "632-345-2293",
+    "salary": "$78670.30",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562537"
+    },
+    "id": 863,
+    "first_name": "Cecilia",
+    "last_name": "Ferretti",
+    "job_role": "HR Manager",
+    "office_loc": "Providence",
+    "phone_no": "334-503-1645",
+    "salary": "$83772.28",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de562558"
+    },
+    "id": 896,
+    "first_name": "Piotr",
+    "last_name": "Torrie",
+    "job_role": "HR Manager",
+    "office_loc": "Minneapolis",
+    "phone_no": "927-563-4452",
+    "salary": "$133821.19",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de56257d"
+    },
+    "id": 933,
+    "first_name": "June",
+    "last_name": "Tremblot",
+    "job_role": "HR Manager",
+    "office_loc": "Irvine",
+    "phone_no": "692-979-0736",
+    "salary": "$77201.24",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  },
+  {
+    "_id": {
+      "$oid": "67dad53561bddf67de5625a1"
+    },
+    "id": 969,
+    "first_name": "Valentin",
+    "last_name": "Marsters",
+    "job_role": "HR Manager",
+    "office_loc": "Minneapolis",
+    "phone_no": "582-816-4859",
+    "salary": "$61625.28",
+    "is_HR": null,
+    "is_Manager": null,
+    "manager_id": null
+  }]

@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from './hooks/AuthContext';
 
 function LoginForm() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    // const { login } = null;
+    const { login } = useAuth();
     const navigate = useNavigate();
 
     const handleLogin = async (event) => {

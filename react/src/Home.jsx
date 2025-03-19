@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 
 import Table from './Table';
 
+import RequireAuth from "./requireAuth";
+
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 
@@ -39,10 +41,12 @@ const Home = ({data, userType, userTypeInput, handleUserTypeInputChange, handleS
 
             <br></br>
 
-            <div className="card">
-                <h1> List of People </h1>
-                <Table tableData={data} userRole={userType} />
-            </div>
+            <RequireAuth>
+                <div className="card">
+                    <h1> List of People </h1>
+                    <Table tableData={data} userRole={userType} />
+                </div>
+            </RequireAuth>
         </>
     );
 };

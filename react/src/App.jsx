@@ -13,6 +13,8 @@ import Home from "./Home.jsx";
 import LoginForm from "./LoginForm.jsx";
 import Table from './Table';
 
+import { AuthProvider } from "./hooks/AuthContext";
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -127,10 +129,13 @@ function App() {
       <Header />
 
       <div>
-        <Routes>
-            <Route exact path="/" element={<Home data={data} userType={userType} handleUserTypeInputChange={handleUserTypeInputChange} handleSubmit={handleSubmit}/>} />
-            <Route path="/login" element={<LoginForm />} />
-        </Routes>
+        <AuthProvider>
+          <Routes>
+              <Route exact path="/" element={<Home data={data} userType={userType} handleUserTypeInputChange={handleUserTypeInputChange} handleSubmit={handleSubmit}/>} />
+              <Route path="/login" element={<LoginForm />} />
+          </Routes>
+        </AuthProvider>
+        
       </div>
 
       <p className="read-the-docs">

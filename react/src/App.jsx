@@ -8,10 +8,10 @@ import {
 
 import './App.css'
 
-import Header from './Header.jsx';
-import Home from "./Home.jsx";
-import LoginForm from "./LoginForm.jsx";
-import Table from './Table';
+import Header from './components/Header.jsx';
+import Home from "./components/Home.jsx";
+import LoginForm from "./components/LoginForm.jsx";
+import Table from './components/Table.jsx';
 
 import { AuthProvider } from "./hooks/AuthContext";
 

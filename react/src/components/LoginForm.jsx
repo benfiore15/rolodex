@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from './hooks/AuthContext';
+import { useAuth } from '../hooks/AuthContext';
 
 function LoginForm() {
     const [username, setUsername] = useState('');

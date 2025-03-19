@@ -2,7 +2,7 @@ import React from 'react';
 
 function Table({ tableData }) {
 
-    const formatNumToSalary = (salaryAmt) => "$" + salaryAmt.toLocaleString('en-US');
+    // const formatNumToSalary = (salaryAmt) => "$" + salaryAmt.toLocaleString('en-US');
 
     // 55800
     // 55,800
@@ -26,11 +26,11 @@ function Table({ tableData }) {
         {tableData.map((tableItem) => (
           <tr key={tableItem.name}>
             {/* <td>{tableItem.id}</td> */}
-            <td>{tableItem.name}</td>
-            <td>{tableItem.phone_number}</td>
+            <td>{tableItem.first_name + " " + tableItem.last_name}</td>
+            <td>{tableItem.phone_no}</td>
             <td>{tableItem.job_role}</td>
-            <td>{tableItem.work_location}</td>
-            <td>{formatNumToSalary(tableItem.salary)}</td>
+            <td>{tableItem.office_loc}</td>
+            <td>{tableItem.salary}</td>
           </tr>
         ))}
       </tbody>

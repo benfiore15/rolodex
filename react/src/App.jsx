@@ -1,16 +1,39 @@
 import React, { useState, useEffect } from "react";
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
 
+import './App.css'
+
+import Header from './Header.jsx';
+import Home from "./Home.jsx";
+import LoginForm from "./LoginForm.jsx";
 import Table from './Table';
+
+import { AuthProvider } from "./hooks/AuthContext";
 import HR_Table from "./HR_Table";
 
 function App() {
   const [count, setCount] = useState(0)
 
+  const [isLoggedIn, setLogin] = useState(true)
+
   const [data, setData] = useState([])
+  const [hrData, setHRData] = useState([])
+  const [managerData, setManagerData] = useState([])
+  const [userType, setUserType] = useState('HR');
+
+  const [userTypeInput,  setUserTypeInput] = useState('')
+
+  // useEffect(() => {
+  //   const currState = sessionStorage.getItem(userType);
+  //   sessionStorage.setItem('userType', userType)
+  //   console.log(`Session Storage Added for `)
+  //   return currState !== null ? JSON.parse(currState) : "HR";
+  // }, [])
 
   useEffect(() => {
     const fetchData = async () => {
@@ -22,12 +45,83 @@ function App() {
             const json_response = await response.json();
             setData(json_response); // assign JSON response to the data variable.
         } catch (error) {
-            console.error('Error fetching socks:', error);
+            console.error('Error fetching employee data:', error);
         }
     };
 
     fetchData();
   }, [])
+
+  useEffect(() => {
+    sessionStorage.setItem('userType', userType)
+  }, [userType])
+
+  // useEffect(() => {
+  //   const fetchHRManagers = async () => {
+  //     try {
+  //       const response = await fetch(import.meta.env.VITE_PEOPLE_API_URL);
+  //       if (!response.ok) {
+  //           throw new Error('Data could not be fetched!');
+  //       }
+  //       const json_response = await response.json();
+  //       setHRData(json_response); // assign JSON response to the data variable.
+  //     } catch (error) {
+  //         console.error('Error fetching HR Manager data:', error);
+  //     }
+  //   };
+
+  //   fetchHRManagers();
+  // }, [])
+
+  // useEffect(() => {
+  //   const fetchManagers = async () => {
+  //     try {
+  //       const response = await fetch(import.meta.env.VITE_PEOPLE_API_URL);
+  //       if (!response.ok) {
+  //           throw new Error('Data could not be fetched!');
+  //       }
+  //       const json_response = await response.json();
+  //       setManagerData(json_response); // assign JSON response to the data variable.
+  //     } catch (error) {
+  //         console.error('Error fetching HR Manager data:', error);
+  //     }
+  //   };
+
+  //   fetchManagers();
+  // }, [])
+
+  // useEffect(() => {
+  //   // Listen for storage changes from other tabs/windows
+  //   const handleStorageChange = (event) => {
+  //     if (event.key === 'myData') {
+  //       setData(event.newValue);
+  //     }
+  //   };
+
+  //   window.addEventListener('storage', handleStorageChange);
+
+  //   return () => {
+  //     window.removeEventListener('storage', handleStorageChange);
+  //   };
+  // }, []);
+
+  useEffect(() => {
+    // Clear sessionStorage when the component mounts
+    sessionStorage.clear();
+  }, []); // Empty dependency array ensures this runs only on mount
+
+  const handleUserTypeInputChange = (event) => {
+    console.log(`New input val: ${event.target.value}`)
+    setUserTypeInput(event.target.value)
+  }
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(`NEW USER TYPE: ${userTypeInput}`)
+    setUserType(userTypeInput)
+
+    setUserTypeInput('')
+  }
 
   const [hr_data, sethrData] = useState([])
 
@@ -50,26 +144,18 @@ function App() {
 
   return (
     <>
+    <Router>
+
+      <Header />
+
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-
-      <br></br>
-
-      <div className="card">
-        <h1> List of People </h1>
-        <Table tableData={data} />
+        <AuthProvider>
+          <Routes>
+              <Route exact path="/" element={<Home data={data} userType={userType} handleUserTypeInputChange={handleUserTypeInputChange} handleSubmit={handleSubmit}/>} />
+              <Route path="/login" element={<LoginForm />} />
+          </Routes>
+        </AuthProvider>
+        
       </div>
 
       <div className="card">
@@ -80,6 +166,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
+    </Router>
     </>
   )
 }

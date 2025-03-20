@@ -9,7 +9,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (username, password) => {
         try {
-            const response = await fetch(`${import.meta.env.VITE_SOCKS_API_URL}/login`, {
+            const response = await fetch(`/login`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -17,10 +17,10 @@ export const AuthProvider = ({ children }) => {
                 body: JSON.stringify({ username, password }),
             });
             const data = await response.json();
-            if (data.uid) {
+            if (data.success) {
                 setUser({
                     username,
-                    uid: data.uid // Storing the uid returned from the server
+                    // uid: data.uid // Storing the uid returned from the server
                 });
             } else {
                 throw new Error(data.message || 'Login failed');

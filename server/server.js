@@ -12,7 +12,6 @@ dotenv.config();
 const url = process.env.MONGO_DB_URL;
 const dbName = process.env.MONGO_DB;
 const collectionName = process.env.MONGO_DB_COLLECTION;
-const hrcollectionName = process.env.HR_MONGO_DB_COLLECTION;
 const mgmtcollectionName= process.env.MGMT_MONGO_DB_COLLECTION;
 
 // Server Port Config -- @ localhost 3000
@@ -71,3 +70,53 @@ app.get('/mgmt', async (req, res) => {
 app.listen(PORT, () => {
     console.log(`Hello world! \nServer is running on http://localhost:${PORT}`);
 });
+
+
+// Endpoint to log users into application
+app.post('/login', async (req, res) => {
+    const { username, password } = req.body;
+    console.log(`Useranme: ${username} || Password: ${password}`)
+    try {
+        // const result = await pool.query('SELECT uid FROM users WHERE username = $1 AND password = $2', [username, password]);
+
+        if ((username === 'cZebedee' && password === 'pass123') || (username === 'lCharter' && password === 'pass123') || (username === 'gLevet' && password === 'pass123')) {
+            console.log(`Successful login for user ${username}`)
+
+            let nameToFind = null;
+
+            if (username === "cZebedee") nameToFind = {"firstName": "Christel", "lastName": "Zebedee"} // EMPLOYEE
+            else if (username === "lCharter") nameToFind = {"firstName": "Luke", "lastName": "Charter"} // HR
+            else if (username === "gLevet") nameToFind = {"firstName": "Godwin", "lastName": "Levet"} // MGMT
+            console.log(`Looking for ${nameToFind.firstName + nameToFind.lastName}`)
+
+            try {
+                const client = await MongoClient.connect(url);
+                const db = client.db(dbName);
+                const collection = db.collection(collectionName);
+                const user = await collection.findOne({first_name: nameToFind.firstName, last_name: nameToFind.lastName});
+                
+                if (user.job_role.includes("HR")) {
+                    user.job_role = "HR"
+                } else if (user.job_role.includes("Manager")) {
+                    user.job_role = "MGMT"
+                }
+                console.log(user)
+                console.log(`ROLE ASSIGNED ==> ${user.job_role}`)
+                console.log(`Who is their manager? ${user.manager_id}`)
+
+                res.status(200).json({ success: true, message: 'Login successful!', userID: user._id, userEID: user.id, name: user.first_name + " " + user.last_name, role: user.job_role, managerID: user.manager_id});
+            } catch (err) {
+                console.error("Error:", err);
+                res.status(500).send("ERROR: Unable to find user from server");
+            }
+
+            
+        } else {
+            res.status(401).json({ success: false, message: 'Invalid username or password' });
+        }
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: 'Internal server error' });
+    }
+});
+

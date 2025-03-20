@@ -79,14 +79,14 @@ app.post('/login', async (req, res) => {
     try {
         // const result = await pool.query('SELECT uid FROM users WHERE username = $1 AND password = $2', [username, password]);
 
-        if ((username === 'cZebedee' && password === 'pass123') || (username === 'lCharter' && password === 'pass123') || (username === 'mGaine' && password === 'pass123')) {
+        if ((username === 'cZebedee' && password === 'pass123') || (username === 'lCharter' && password === 'pass123') || (username === 'gLevet' && password === 'pass123')) {
             console.log(`Successful login for user ${username}`)
 
             let nameToFind = null;
 
-            if (username === "mGaine") nameToFind = {"firstName": "Marilin", "lastName": "Gaine"}
-            else if (username === "lCharter") nameToFind = {"firstName": "Luke", "lastName": "Charter"}
-            else if (username === "cZebedee") nameToFind = {"firstName": "Christel", "lastName": "Zebedee"}
+            if (username === "cZebedee") nameToFind = {"firstName": "Christel", "lastName": "Zebedee"} // EMPLOYEE
+            else if (username === "lCharter") nameToFind = {"firstName": "Luke", "lastName": "Charter"} // HR
+            else if (username === "gLevet") nameToFind = {"firstName": "Godwin", "lastName": "Levet"} // MGMT
             console.log(`Looking for ${nameToFind.firstName + nameToFind.lastName}`)
 
             try {
@@ -100,9 +100,11 @@ app.post('/login', async (req, res) => {
                 } else if (user.job_role.includes("Manager")) {
                     user.job_role = "MGMT"
                 }
+                console.log(user)
                 console.log(`ROLE ASSIGNED ==> ${user.job_role}`)
+                console.log(`Who is their manager? ${user.manager_id}`)
 
-                res.status(200).json({ success: true, message: 'Login successful!', userID: user._id, name: user.first_name + " " + user.last_name, role: user.job_role});
+                res.status(200).json({ success: true, message: 'Login successful!', userID: user._id, userEID: user.id, name: user.first_name + " " + user.last_name, role: user.job_role, managerID: user.manager_id});
             } catch (err) {
                 console.error("Error:", err);
                 res.status(500).send("ERROR: Unable to find user from server");

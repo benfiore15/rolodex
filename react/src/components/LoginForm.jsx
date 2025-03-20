@@ -23,7 +23,7 @@ function LoginForm({setLoggedInUser, setUserType }) {
         console.log(`User Id: ${data.userID} || Name: ${data.name}`)
         const role = data.role
 
-        setLoggedInUser({userID: data.userID, name: data.name, role: data.role})
+        setLoggedInUser({userID: data.userID, empID: data.userEID, name: data.name, role: data.role, userSpecials: {managerID: data.role === "MGMT" ? null : data.managerID}})
         setUserType(role)
         navigate('/'); // Redirect to the root page
         } else {

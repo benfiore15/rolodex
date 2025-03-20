@@ -36,7 +36,7 @@ const Home = ({data, loggedinUser, userType, userTypeInput, handleUserTypeInputC
             
                 <div className="card">
                     <h1> List of People </h1>
-                    {loggedinUser ? <Table tableData={data} userId = {loggedinUser.id} userRole={loggedinUser.role} /> : <></>}
+                    {loggedinUser ? <Table tableData={data} empID={loggedinUser.empID} userFullName={loggedinUser.name} userRole={loggedinUser.role} /> : <></>}
                 </div>
         </>
     );

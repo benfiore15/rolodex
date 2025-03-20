@@ -1,54 +1,39 @@
 import React, { useState, useEffect } from 'react';
 
-function Table({ tableData, userId, userRole }) {
+function Table({ tableData, empID, userFullName, userRole }) {
 
-  const [salaryStyle, setSalaryStyle] = useState([])
+  const [dataInTable, setDataInTable] = useState(tableData)
 
-    // Function to add a class
-    const addSalaryClass = (newClass) => {
-      setSalaryStyle((prevClasses) => [...prevClasses, newClass]);
-    };
-  
-    // Function to remove a class
-    const removeSalaryClass = (classToRemove) => {
-      setSalaryStyle((prevClasses) => prevClasses.filter(c => c !== classToRemove));
-    };
+  useEffect(() => {
+    const tableWithSalaryStyle = tableData.map((tableRow) => {
+      let appendedTableRow = { ...tableRow,}; // create a shallow copy to avoid mutating original data.
 
-    // const [lockedSalary, setLockedSalary] = useState(null)
+      const rowFullName = tableRow.first_name + " " + tableRow.last_name;
 
-    useEffect(() => {
-      console.log(`RECEIVED USER TYPE FROM TABLE: ${userRole}`)
-      if (!['HR', 'MGMT'].includes(userRole)) {
-        console.log("USER LOCKED FROM SEEING SALARIES")
-        // addSalaryClass('salary-blur')
-        setSalaryStyle(['salary-blur'])
-        console.log(`Salary Column Classes: ${salaryStyle}`)
+      console.log(`ROLE: ${userRole} (ID: ${empID}) || ROW MANAGER ID: ${tableRow.manager_id}`)
+
+      if (userRole === "MGMT" && tableRow.manager_id !== empID)  // In this case empID refers to MANAGER ID OF LOGGED IN USER
+      {
+          console.log('FOUND MATCH!')
+          appendedTableRow.salaryStyle = 'salary-blur'
       }
-    }, [])
+      else if (!["HR", "MGMT"].includes(userRole) && userFullName !== rowFullName) {
+        console.log('FOUND MATCH! 2')
+          appendedTableRow.salaryStyle = 'salary-blur'
+      }
 
-    // const formatNumToSalary = (salaryAmt) => "$" + salaryAmt.toLocaleString('en-US');
+      console.log(appendedTableRow)
 
-    // 55800
-    // 55,800
+      return appendedTableRow;
+    });
 
-    // const [sessionType, setSessionType] = useState(sessionStorage.getItem('userType'))
-    // console.log(`Session Type: ${sessionType}`)
+    setDataInTable(tableWithSalaryStyle);
+     
 
-    // useEffect(() => {
-    //     // Listen for storage changes from other tabs/windows
-    //     const handleStorageChange = (event) => {
-    //       if (event.key === 'myData') {
-    //         setData(event.newValue);
-    //       }
-    //     };
-    
-    //     window.addEventListener('storage', handleStorageChange);
-    
-    //     return () => {
-    //       window.removeEventListener('storage', handleStorageChange);
-    //     };
-    //   }, []);
-
+    // Manager: see salaries of directs
+    // HR: See all salaries
+    // Employee: See only their own salary
+  }, [])
 
   return (
     <>
@@ -65,14 +50,15 @@ function Table({ tableData, userId, userRole }) {
                     </tr>
                 </thead>
                 <tbody>
-                    {tableData.map((tableItem) => (
+                    {dataInTable.map((tableItem) => (
                     <tr key={tableItem.id}>
                         {/* <td>{tableItem.id}</td> */}
+                        {/* {console.log(`User Full Name: ${userFullName} <===> ${tableItem.first_name + " " + tableItem.last_name} ==> ${userFullName === (tableItem.first_name + " " + tableItem.last_name)}`)} */}
                         <td key={tableItem.last_name + "_name"}>{tableItem.first_name + " " + tableItem.last_name}</td>
                         <td key={tableItem.last_name + "+_phoneNo"}>{tableItem.phone_no}</td>
                         <td key={tableItem.last_name + "_jobRole"}>{tableItem.job_role}</td>
                         <td key={tableItem.last_name + "_officeLoc"}>{tableItem.office_loc}</td>
-                        <td key={tableItem.last_name + "_salary"} className={salaryStyle}>
+                        <td key={tableItem.last_name + "_salary"} className={tableItem.salaryStyle}>
                             {/* <span className="overplay-span locked-text hidden">LOCKED</span> */}
                             {tableItem.salary}
                         </td>

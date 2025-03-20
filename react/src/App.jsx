@@ -38,6 +38,7 @@ function App() {
   useEffect(() => {
     console.log(`NEW USER LOGIN FOR ${loggedinUser.name}`)
     console.log(`Viewing role ==> ${loggedinUser.role}`)
+    // console.log(`Who is their manager? ${loggedinUser.userSpecials.managerID}`)
 
     const fetchData = async () => {
       try {

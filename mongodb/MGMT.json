@@ -1,0 +1,2280 @@
+[{
+  "_id": {
+    "$oid": "67dad53561bddf67de5621db"
+  },
+  "id": 3,
+  "first_name": "Gladys",
+  "last_name": "Oganesian",
+  "job_role": "Product Manager",
+  "office_loc": "St Louis",
+  "phone_no": "521-485-2720",
+  "salary": "$84132.10",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5621e9"
+  },
+  "id": 17,
+  "first_name": "Calli",
+  "last_name": "Facchini",
+  "job_role": "Product Manager",
+  "office_loc": "London",
+  "phone_no": "534-801-8867",
+  "salary": "$71761.67",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5621ef"
+  },
+  "id": 23,
+  "first_name": "Godwin",
+  "last_name": "Levet",
+  "job_role": "Product Manager",
+  "office_loc": "Seattle",
+  "phone_no": "648-554-7023",
+  "salary": "$117346.29",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5621fe"
+  },
+  "id": 38,
+  "first_name": "Thacher",
+  "last_name": "Croce",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Houston",
+  "phone_no": "693-520-3634",
+  "salary": "$108881.90",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562210"
+  },
+  "id": 56,
+  "first_name": "Flor",
+  "last_name": "Sheward",
+  "job_role": "Customer Support Manager",
+  "office_loc": "London",
+  "phone_no": "477-297-5260",
+  "salary": "$64536.17",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56221d"
+  },
+  "id": 69,
+  "first_name": "Perri",
+  "last_name": "Heinel",
+  "job_role": "Project Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "202-873-2306",
+  "salary": "$62232.10",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562226"
+  },
+  "id": 78,
+  "first_name": "Ilyse",
+  "last_name": "Godbold",
+  "job_role": "Program Manager",
+  "office_loc": "Seattle",
+  "phone_no": "192-899-5056",
+  "salary": "$86041.51",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562227"
+  },
+  "id": 79,
+  "first_name": "Viki",
+  "last_name": "Filshin",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Irvine",
+  "phone_no": "165-172-5255",
+  "salary": "$107983.68",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562231"
+  },
+  "id": 89,
+  "first_name": "Carmelina",
+  "last_name": "Stichel",
+  "job_role": "Product Manager",
+  "office_loc": "Portland",
+  "phone_no": "902-249-9347",
+  "salary": "$128344.38",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562235"
+  },
+  "id": 93,
+  "first_name": "Catherine",
+  "last_name": "Brealey",
+  "job_role": "Program Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "186-578-6027",
+  "salary": "$116683.90",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562236"
+  },
+  "id": 94,
+  "first_name": "Galina",
+  "last_name": "Aspinal",
+  "job_role": "Program Manager",
+  "office_loc": "Houston",
+  "phone_no": "713-964-0981",
+  "salary": "$84952.43",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562240"
+  },
+  "id": 104,
+  "first_name": "Erna",
+  "last_name": "Dumingo",
+  "job_role": "Project Manager",
+  "office_loc": "Paris",
+  "phone_no": "426-447-5824",
+  "salary": "$106260.02",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562242"
+  },
+  "id": 106,
+  "first_name": "Kalli",
+  "last_name": "Babon",
+  "job_role": "Program Manager",
+  "office_loc": "Houston",
+  "phone_no": "129-212-5082",
+  "salary": "$54829.02",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562247"
+  },
+  "id": 111,
+  "first_name": "Roxanne",
+  "last_name": "Cordery",
+  "job_role": "Program Manager",
+  "office_loc": "Seattle",
+  "phone_no": "730-220-7909",
+  "salary": "$133071.92",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56224d"
+  },
+  "id": 117,
+  "first_name": "Mar",
+  "last_name": "Scougal",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Seattle",
+  "phone_no": "515-482-4048",
+  "salary": "$101046.50",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56224e"
+  },
+  "id": 118,
+  "first_name": "Jasmine",
+  "last_name": "Wesley",
+  "job_role": "Program Manager",
+  "office_loc": "San Diego",
+  "phone_no": "631-526-3705",
+  "salary": "$95106.53",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562258"
+  },
+  "id": 128,
+  "first_name": "Damon",
+  "last_name": "Klicher",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Dallas",
+  "phone_no": "804-815-8464",
+  "salary": "$134684.19",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56225c"
+  },
+  "id": 132,
+  "first_name": "Pyotr",
+  "last_name": "Swabey",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "915-921-0738",
+  "salary": "$126756.35",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56225e"
+  },
+  "id": 134,
+  "first_name": "Harris",
+  "last_name": "O' Quirk",
+  "job_role": "Product Manager",
+  "office_loc": "Dallas",
+  "phone_no": "918-146-3427",
+  "salary": "$87475.23",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56227b"
+  },
+  "id": 163,
+  "first_name": "Koralle",
+  "last_name": "Boig",
+  "job_role": "Product Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "586-668-2247",
+  "salary": "$106568.24",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56227f"
+  },
+  "id": 167,
+  "first_name": "Adora",
+  "last_name": "Grzesiak",
+  "job_role": "Product Manager",
+  "office_loc": "New York",
+  "phone_no": "536-851-0537",
+  "salary": "$114772.69",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562280"
+  },
+  "id": 168,
+  "first_name": "Joanne",
+  "last_name": "Brookes",
+  "job_role": "Project Manager",
+  "office_loc": "Seattle",
+  "phone_no": "714-157-7125",
+  "salary": "$103207.06",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562285"
+  },
+  "id": 173,
+  "first_name": "Wes",
+  "last_name": "Baytrop",
+  "job_role": "Project Manager",
+  "office_loc": "San Diego",
+  "phone_no": "882-884-0903",
+  "salary": "$106761.72",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562286"
+  },
+  "id": 174,
+  "first_name": "Nealy",
+  "last_name": "Gillise",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Boston",
+  "phone_no": "304-255-6961",
+  "salary": "$101467.66",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562287"
+  },
+  "id": 175,
+  "first_name": "Reuben",
+  "last_name": "Pace",
+  "job_role": "Program Manager",
+  "office_loc": "Portland",
+  "phone_no": "298-136-5672",
+  "salary": "$126680.64",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56228a"
+  },
+  "id": 178,
+  "first_name": "Yalonda",
+  "last_name": "Delatour",
+  "job_role": "Product Manager",
+  "office_loc": "Tokyo",
+  "phone_no": "481-851-2183",
+  "salary": "$54675.89",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56228b"
+  },
+  "id": 179,
+  "first_name": "Pandora",
+  "last_name": "Solland",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "679-326-8156",
+  "salary": "$46667.10",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56229f"
+  },
+  "id": 199,
+  "first_name": "Orran",
+  "last_name": "Pauncefort",
+  "job_role": "Program Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "535-608-2083",
+  "salary": "$122881.81",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622a3"
+  },
+  "id": 203,
+  "first_name": "Germana",
+  "last_name": "Pervoe",
+  "job_role": "Project Manager",
+  "office_loc": "Irvine",
+  "phone_no": "906-504-6747",
+  "salary": "$51573.17",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622a4"
+  },
+  "id": 204,
+  "first_name": "Jackqueline",
+  "last_name": "Alyoshin",
+  "job_role": "Program Manager",
+  "office_loc": "Houston",
+  "phone_no": "815-943-6537",
+  "salary": "$83309.91",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622a5"
+  },
+  "id": 205,
+  "first_name": "Berri",
+  "last_name": "Tarplee",
+  "job_role": "Project Manager",
+  "office_loc": "Paris",
+  "phone_no": "615-780-9527",
+  "salary": "$104618.38",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622ab"
+  },
+  "id": 211,
+  "first_name": "Frederich",
+  "last_name": "Magner",
+  "job_role": "Program Manager",
+  "office_loc": "Portland",
+  "phone_no": "113-844-1581",
+  "salary": "$132277.99",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622ae"
+  },
+  "id": 214,
+  "first_name": "Desiri",
+  "last_name": "Scouse",
+  "job_role": "Project Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "558-712-6660",
+  "salary": "$119057.92",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622b0"
+  },
+  "id": 216,
+  "first_name": "Blondell",
+  "last_name": "Cohrs",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Seattle",
+  "phone_no": "849-678-8258",
+  "salary": "$133352.35",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622bc"
+  },
+  "id": 228,
+  "first_name": "Randi",
+  "last_name": "Kyle",
+  "job_role": "Program Manager",
+  "office_loc": "London",
+  "phone_no": "872-125-1795",
+  "salary": "$89484.15",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622c0"
+  },
+  "id": 232,
+  "first_name": "Bellanca",
+  "last_name": "Compford",
+  "job_role": "Project Manager",
+  "office_loc": "Providence",
+  "phone_no": "509-497-1948",
+  "salary": "$71561.42",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622c3"
+  },
+  "id": 235,
+  "first_name": "Ellie",
+  "last_name": "Morigan",
+  "job_role": "Project Manager",
+  "office_loc": "San Diego",
+  "phone_no": "181-713-5052",
+  "salary": "$78950.60",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622c4"
+  },
+  "id": 236,
+  "first_name": "Brandy",
+  "last_name": "Thelwll",
+  "job_role": "Product Manager",
+  "office_loc": "Seattle",
+  "phone_no": "500-839-2373",
+  "salary": "$56483.46",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622c8"
+  },
+  "id": 240,
+  "first_name": "Elvis",
+  "last_name": "Rolland",
+  "job_role": "Program Manager",
+  "office_loc": "Portland",
+  "phone_no": "152-141-9045",
+  "salary": "$69358.58",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622ca"
+  },
+  "id": 242,
+  "first_name": "Catharine",
+  "last_name": "Coldrick",
+  "job_role": "Product Manager",
+  "office_loc": "St Louis",
+  "phone_no": "526-934-4363",
+  "salary": "$104722.60",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622cb"
+  },
+  "id": 243,
+  "first_name": "Andras",
+  "last_name": "Golde",
+  "job_role": "Product Manager",
+  "office_loc": "London",
+  "phone_no": "445-171-6643",
+  "salary": "$73825.06",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622d0"
+  },
+  "id": 248,
+  "first_name": "Winny",
+  "last_name": "Burrow",
+  "job_role": "Project Manager",
+  "office_loc": "London",
+  "phone_no": "700-242-0064",
+  "salary": "$77824.86",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622e8"
+  },
+  "id": 272,
+  "first_name": "Karolina",
+  "last_name": "Bendall",
+  "job_role": "Program Manager",
+  "office_loc": "New York",
+  "phone_no": "961-240-2493",
+  "salary": "$49170.08",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622ed"
+  },
+  "id": 277,
+  "first_name": "Ikey",
+  "last_name": "Wallbrook",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Tokyo",
+  "phone_no": "724-728-9038",
+  "salary": "$52579.24",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622ee"
+  },
+  "id": 278,
+  "first_name": "Tim",
+  "last_name": "Laurentino",
+  "job_role": "Customer Support Manager",
+  "office_loc": "San Diego",
+  "phone_no": "228-975-4116",
+  "salary": "$130650.98",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622f1"
+  },
+  "id": 281,
+  "first_name": "Vernice",
+  "last_name": "Nawton",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "415-454-0095",
+  "salary": "$115165.42",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5622f5"
+  },
+  "id": 285,
+  "first_name": "Stanwood",
+  "last_name": "Mowling",
+  "job_role": "Project Manager",
+  "office_loc": "Tokyo",
+  "phone_no": "862-263-8541",
+  "salary": "$49170.67",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562300"
+  },
+  "id": 296,
+  "first_name": "Briana",
+  "last_name": "Zorzi",
+  "job_role": "Product Manager",
+  "office_loc": "St Paul",
+  "phone_no": "303-397-1125",
+  "salary": "$88507.61",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562308"
+  },
+  "id": 304,
+  "first_name": "Dolores",
+  "last_name": "Alyokhin",
+  "job_role": "Program Manager",
+  "office_loc": "Paris",
+  "phone_no": "966-330-2006",
+  "salary": "$78904.71",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56230b"
+  },
+  "id": 307,
+  "first_name": "Rosco",
+  "last_name": "Lansdale",
+  "job_role": "Customer Support Manager",
+  "office_loc": "St Louis",
+  "phone_no": "905-575-1724",
+  "salary": "$123585.65",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562311"
+  },
+  "id": 313,
+  "first_name": "Kennie",
+  "last_name": "Pusill",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Boston",
+  "phone_no": "543-507-0292",
+  "salary": "$111201.06",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56231a"
+  },
+  "id": 322,
+  "first_name": "Paloma",
+  "last_name": "Rich",
+  "job_role": "Product Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "829-872-2689",
+  "salary": "$82970.00",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56231c"
+  },
+  "id": 324,
+  "first_name": "Nikolas",
+  "last_name": "Simonard",
+  "job_role": "Project Manager",
+  "office_loc": "Irvine",
+  "phone_no": "213-271-5378",
+  "salary": "$81402.36",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562320"
+  },
+  "id": 328,
+  "first_name": "Reine",
+  "last_name": "Teager",
+  "job_role": "Project Manager",
+  "office_loc": "Paris",
+  "phone_no": "178-185-4315",
+  "salary": "$66418.48",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56232e"
+  },
+  "id": 342,
+  "first_name": "Roddie",
+  "last_name": "Dumini",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Dallas",
+  "phone_no": "972-621-8030",
+  "salary": "$64469.11",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56233e"
+  },
+  "id": 358,
+  "first_name": "Susy",
+  "last_name": "Maud",
+  "job_role": "Project Manager",
+  "office_loc": "London",
+  "phone_no": "115-751-8115",
+  "salary": "$104665.75",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562342"
+  },
+  "id": 362,
+  "first_name": "Wain",
+  "last_name": "Scotchford",
+  "job_role": "Product Manager",
+  "office_loc": "Dallas",
+  "phone_no": "239-417-1639",
+  "salary": "$80637.90",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56234d"
+  },
+  "id": 373,
+  "first_name": "Jorgan",
+  "last_name": "Kenrick",
+  "job_role": "Program Manager",
+  "office_loc": "Hartford",
+  "phone_no": "885-969-3583",
+  "salary": "$47204.48",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562356"
+  },
+  "id": 382,
+  "first_name": "Burl",
+  "last_name": "Stainsby",
+  "job_role": "Program Manager",
+  "office_loc": "Portland",
+  "phone_no": "498-408-5876",
+  "salary": "$130550.52",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562363"
+  },
+  "id": 395,
+  "first_name": "Zachariah",
+  "last_name": "Trayford",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Paris",
+  "phone_no": "258-417-3148",
+  "salary": "$84970.61",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56236b"
+  },
+  "id": 403,
+  "first_name": "Jessee",
+  "last_name": "Danahar",
+  "job_role": "Customer Support Manager",
+  "office_loc": "St Paul",
+  "phone_no": "605-559-3775",
+  "salary": "$51576.15",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562375"
+  },
+  "id": 413,
+  "first_name": "Colman",
+  "last_name": "Ewens",
+  "job_role": "Project Manager",
+  "office_loc": "Boston",
+  "phone_no": "190-785-1944",
+  "salary": "$70720.04",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56237b"
+  },
+  "id": 419,
+  "first_name": "Chickie",
+  "last_name": "Brusin",
+  "job_role": "Project Manager",
+  "office_loc": "Seattle",
+  "phone_no": "758-776-5761",
+  "salary": "$73728.59",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562382"
+  },
+  "id": 426,
+  "first_name": "Dane",
+  "last_name": "Masdon",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Hartford",
+  "phone_no": "204-131-5776",
+  "salary": "$90798.10",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562383"
+  },
+  "id": 427,
+  "first_name": "Torrey",
+  "last_name": "Oehme",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Tokyo",
+  "phone_no": "328-682-2678",
+  "salary": "$91276.14",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562388"
+  },
+  "id": 432,
+  "first_name": "Milka",
+  "last_name": "Schole",
+  "job_role": "Project Manager",
+  "office_loc": "New York",
+  "phone_no": "535-373-4621",
+  "salary": "$73775.63",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562392"
+  },
+  "id": 442,
+  "first_name": "Felic",
+  "last_name": "Dyball",
+  "job_role": "Program Manager",
+  "office_loc": "Houston",
+  "phone_no": "541-147-2220",
+  "salary": "$124441.67",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562395"
+  },
+  "id": 445,
+  "first_name": "Reggis",
+  "last_name": "Yokel",
+  "job_role": "Project Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "859-129-2166",
+  "salary": "$58478.99",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623a0"
+  },
+  "id": 456,
+  "first_name": "Pacorro",
+  "last_name": "Gavriel",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Portland",
+  "phone_no": "786-593-3830",
+  "salary": "$128222.68",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623a5"
+  },
+  "id": 461,
+  "first_name": "Hester",
+  "last_name": "Strethill",
+  "job_role": "Product Manager",
+  "office_loc": "St Louis",
+  "phone_no": "277-304-1196",
+  "salary": "$66687.14",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623a7"
+  },
+  "id": 463,
+  "first_name": "Olivie",
+  "last_name": "Harrinson",
+  "job_role": "Project Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "601-455-4496",
+  "salary": "$53767.01",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623b7"
+  },
+  "id": 479,
+  "first_name": "Osborne",
+  "last_name": "Gilchriest",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Hartford",
+  "phone_no": "297-867-2990",
+  "salary": "$70390.23",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623c5"
+  },
+  "id": 493,
+  "first_name": "Ollie",
+  "last_name": "Capin",
+  "job_role": "Product Manager",
+  "office_loc": "St Paul",
+  "phone_no": "955-293-5694",
+  "salary": "$83784.20",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623cd"
+  },
+  "id": 501,
+  "first_name": "Tommy",
+  "last_name": "Bretton",
+  "job_role": "Product Manager",
+  "office_loc": "Boston",
+  "phone_no": "352-191-9156",
+  "salary": "$87524.71",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623d2"
+  },
+  "id": 506,
+  "first_name": "Olly",
+  "last_name": "Rubbens",
+  "job_role": "Project Manager",
+  "office_loc": "Portland",
+  "phone_no": "983-797-3646",
+  "salary": "$132555.44",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623db"
+  },
+  "id": 515,
+  "first_name": "Conroy",
+  "last_name": "Wanek",
+  "job_role": "Program Manager",
+  "office_loc": "Irvine",
+  "phone_no": "175-444-0799",
+  "salary": "$106516.73",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623df"
+  },
+  "id": 519,
+  "first_name": "Lilli",
+  "last_name": "Matzen",
+  "job_role": "Project Manager",
+  "office_loc": "Dallas",
+  "phone_no": "762-592-3798",
+  "salary": "$88205.66",
+  "is_HR": null,
+  "is_manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623e0"
+  },
+  "id": 520,
+  "first_name": "Rubia",
+  "last_name": "Pischel",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Seattle",
+  "phone_no": "766-474-8018",
+  "salary": "$95916.11",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623e6"
+  },
+  "id": 526,
+  "first_name": "Tamra",
+  "last_name": "Dunsire",
+  "job_role": "Project Manager",
+  "office_loc": "London",
+  "phone_no": "342-296-8341",
+  "salary": "$71564.58",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623ef"
+  },
+  "id": 535,
+  "first_name": "Sybil",
+  "last_name": "Lammin",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Irvine",
+  "phone_no": "240-858-1593",
+  "salary": "$88948.96",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623f4"
+  },
+  "id": 540,
+  "first_name": "Erminie",
+  "last_name": "Bridgewater",
+  "job_role": "Product Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "451-191-2398",
+  "salary": "$55010.15",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5623f5"
+  },
+  "id": 541,
+  "first_name": "Dorene",
+  "last_name": "Gurr",
+  "job_role": "Project Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "741-961-3184",
+  "salary": "$45371.22",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562403"
+  },
+  "id": 555,
+  "first_name": "Blondy",
+  "last_name": "Linne",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Irvine",
+  "phone_no": "459-735-1261",
+  "salary": "$117133.37",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562408"
+  },
+  "id": 560,
+  "first_name": "Saleem",
+  "last_name": "Creeghan",
+  "job_role": "Program Manager",
+  "office_loc": "Houston",
+  "phone_no": "493-767-2558",
+  "salary": "$96657.38",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562409"
+  },
+  "id": 561,
+  "first_name": "Avrom",
+  "last_name": "Riley",
+  "job_role": "Program Manager",
+  "office_loc": "San Diego",
+  "phone_no": "421-130-7806",
+  "salary": "$50487.36",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56241a"
+  },
+  "id": 578,
+  "first_name": "Laurent",
+  "last_name": "Perello",
+  "job_role": "Project Manager",
+  "office_loc": "Houston",
+  "phone_no": "653-788-5859",
+  "salary": "$83709.13",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56241e"
+  },
+  "id": 582,
+  "first_name": "Beitris",
+  "last_name": "Farherty",
+  "job_role": "Project Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "612-296-6833",
+  "salary": "$51566.64",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562425"
+  },
+  "id": 589,
+  "first_name": "Ozzie",
+  "last_name": "Soutar",
+  "job_role": "Program Manager",
+  "office_loc": "London",
+  "phone_no": "481-512-6730",
+  "salary": "$122612.14",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562427"
+  },
+  "id": 591,
+  "first_name": "Carie",
+  "last_name": "Eriksson",
+  "job_role": "Product Manager",
+  "office_loc": "San Diego",
+  "phone_no": "905-121-4199",
+  "salary": "$111807.75",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562428"
+  },
+  "id": 592,
+  "first_name": "Dulcea",
+  "last_name": "Mullinger",
+  "job_role": "Product Manager",
+  "office_loc": "Boston",
+  "phone_no": "601-621-8148",
+  "salary": "$122486.36",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562437"
+  },
+  "id": 607,
+  "first_name": "Kippy",
+  "last_name": "Tschirschky",
+  "job_role": "Product Manager",
+  "office_loc": "Houston",
+  "phone_no": "739-176-2219",
+  "salary": "$75116.45",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562439"
+  },
+  "id": 609,
+  "first_name": "Svend",
+  "last_name": "Brosio",
+  "job_role": "Project Manager",
+  "office_loc": "St Paul",
+  "phone_no": "923-611-4971",
+  "salary": "$74505.97",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56243a"
+  },
+  "id": 610,
+  "first_name": "Joellen",
+  "last_name": "deKnevet",
+  "job_role": "Project Manager",
+  "office_loc": "Seattle",
+  "phone_no": "175-432-1718",
+  "salary": "$102541.23",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56243c"
+  },
+  "id": 612,
+  "first_name": "Cory",
+  "last_name": "Eitter",
+  "job_role": "Product Manager",
+  "office_loc": "Portland",
+  "phone_no": "739-495-0880",
+  "salary": "$64997.06",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56243d"
+  },
+  "id": 613,
+  "first_name": "Yoshi",
+  "last_name": "Peinton",
+  "job_role": "Program Manager",
+  "office_loc": "Seattle",
+  "phone_no": "828-230-4445",
+  "salary": "$54219.41",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562440"
+  },
+  "id": 616,
+  "first_name": "Almeda",
+  "last_name": "Jakubovics",
+  "job_role": "Product Manager",
+  "office_loc": "St Paul",
+  "phone_no": "735-820-9072",
+  "salary": "$48760.86",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562441"
+  },
+  "id": 617,
+  "first_name": "Lane",
+  "last_name": "Cettell",
+  "job_role": "Project Manager",
+  "office_loc": "Paris",
+  "phone_no": "370-824-0545",
+  "salary": "$53160.27",
+  "is_HR": null,
+  "is_manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562456"
+  },
+  "id": 638,
+  "first_name": "Avram",
+  "last_name": "Casley",
+  "job_role": "Customer Support Manager",
+  "office_loc": "San Diego",
+  "phone_no": "364-187-0036",
+  "salary": "$108675.05",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562457"
+  },
+  "id": 639,
+  "first_name": "Lamar",
+  "last_name": "Kingsman",
+  "job_role": "Project Manager",
+  "office_loc": "Hartford",
+  "phone_no": "538-221-5230",
+  "salary": "$54279.53",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56245e"
+  },
+  "id": 646,
+  "first_name": "Frasco",
+  "last_name": "Boscher",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Dallas",
+  "phone_no": "608-707-0684",
+  "salary": "$121663.26",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56245f"
+  },
+  "id": 647,
+  "first_name": "Tami",
+  "last_name": "Peyton",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "204-755-0658",
+  "salary": "$105384.89",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562463"
+  },
+  "id": 651,
+  "first_name": "Tracie",
+  "last_name": "Wiggett",
+  "job_role": "Project Manager",
+  "office_loc": "Dallas",
+  "phone_no": "109-690-6134",
+  "salary": "$84237.87",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56246f"
+  },
+  "id": 663,
+  "first_name": "Dewitt",
+  "last_name": "Oliffe",
+  "job_role": "Project Manager",
+  "office_loc": "San Diego",
+  "phone_no": "482-311-3280",
+  "salary": "$75024.36",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562471"
+  },
+  "id": 665,
+  "first_name": "Athene",
+  "last_name": "Skoggings",
+  "job_role": "Project Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "668-368-5804",
+  "salary": "$56912.50",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562477"
+  },
+  "id": 671,
+  "first_name": "Sunshine",
+  "last_name": "Cisar",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Boston",
+  "phone_no": "217-922-8331",
+  "salary": "$119371.70",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56247a"
+  },
+  "id": 674,
+  "first_name": "Kiele",
+  "last_name": "Coulton",
+  "job_role": "Program Manager",
+  "office_loc": "Portland",
+  "phone_no": "619-231-5384",
+  "salary": "$107259.48",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56248b"
+  },
+  "id": 691,
+  "first_name": "Kelcy",
+  "last_name": "Neggrini",
+  "job_role": "Product Manager",
+  "office_loc": "Irvine",
+  "phone_no": "837-926-2561",
+  "salary": "$45252.78",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562495"
+  },
+  "id": 701,
+  "first_name": "Chevalier",
+  "last_name": "Thorsen",
+  "job_role": "Product Manager",
+  "office_loc": "Portland",
+  "phone_no": "691-544-6096",
+  "salary": "$133668.65",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56249e"
+  },
+  "id": 710,
+  "first_name": "Siusan",
+  "last_name": "Blower",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Paris",
+  "phone_no": "834-781-7432",
+  "salary": "$83569.50",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624a4"
+  },
+  "id": 716,
+  "first_name": "Kit",
+  "last_name": "Bonifazio",
+  "job_role": "Project Manager",
+  "office_loc": "Tokyo",
+  "phone_no": "509-173-8579",
+  "salary": "$118619.91",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624a6"
+  },
+  "id": 718,
+  "first_name": "Adda",
+  "last_name": "Seaborne",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Houston",
+  "phone_no": "380-268-0822",
+  "salary": "$76399.45",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624a9"
+  },
+  "id": 721,
+  "first_name": "Kelby",
+  "last_name": "Banck",
+  "job_role": "Project Manager",
+  "office_loc": "Hartford",
+  "phone_no": "388-469-0087",
+  "salary": "$79112.80",
+  "is_HR": null,
+  "is_manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624b2"
+  },
+  "id": 730,
+  "first_name": "Ethelin",
+  "last_name": "Berkeley",
+  "job_role": "Program Manager",
+  "office_loc": "Dallas",
+  "phone_no": "733-954-8111",
+  "salary": "$112673.87",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624b6"
+  },
+  "id": 734,
+  "first_name": "Georgi",
+  "last_name": "Abramowsky",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "503-769-3295",
+  "salary": "$133904.83",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624b8"
+  },
+  "id": 736,
+  "first_name": "Natasha",
+  "last_name": "Rainville",
+  "job_role": "Project Manager",
+  "office_loc": "Providence",
+  "phone_no": "365-390-2389",
+  "salary": "$47525.43",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624c6"
+  },
+  "id": 750,
+  "first_name": "Giusto",
+  "last_name": "Hallam",
+  "job_role": "Product Manager",
+  "office_loc": "Tokyo",
+  "phone_no": "190-604-3842",
+  "salary": "$109900.38",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624c8"
+  },
+  "id": 752,
+  "first_name": "Miner",
+  "last_name": "Pogue",
+  "job_role": "Product Manager",
+  "office_loc": "Houston",
+  "phone_no": "759-638-8786",
+  "salary": "$104544.66",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624c9"
+  },
+  "id": 753,
+  "first_name": "Aprilette",
+  "last_name": "Lovstrom",
+  "job_role": "Product Manager",
+  "office_loc": "St Louis",
+  "phone_no": "404-623-2284",
+  "salary": "$86303.80",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624cc"
+  },
+  "id": 756,
+  "first_name": "Gustie",
+  "last_name": "Corradini",
+  "job_role": "Product Manager",
+  "office_loc": "Dallas",
+  "phone_no": "154-163-8397",
+  "salary": "$117268.93",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624d1"
+  },
+  "id": 761,
+  "first_name": "Osmond",
+  "last_name": "Jenno",
+  "job_role": "Product Manager",
+  "office_loc": "Dallas",
+  "phone_no": "416-888-6756",
+  "salary": "$49492.36",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624d2"
+  },
+  "id": 762,
+  "first_name": "Eddie",
+  "last_name": "Hallad",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Houston",
+  "phone_no": "655-172-2924",
+  "salary": "$96164.70",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624da"
+  },
+  "id": 770,
+  "first_name": "Alfreda",
+  "last_name": "Dwerryhouse",
+  "job_role": "Customer Support Manager",
+  "office_loc": "St Louis",
+  "phone_no": "153-581-6002",
+  "salary": "$79356.13",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624dd"
+  },
+  "id": 773,
+  "first_name": "Kellsie",
+  "last_name": "Darington",
+  "job_role": "Project Manager",
+  "office_loc": "Providence",
+  "phone_no": "801-239-9248",
+  "salary": "$82342.55",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624df"
+  },
+  "id": 775,
+  "first_name": "Nonie",
+  "last_name": "Millen",
+  "job_role": "Product Manager",
+  "office_loc": "Hartford",
+  "phone_no": "317-308-5089",
+  "salary": "$120344.90",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624e9"
+  },
+  "id": 785,
+  "first_name": "Cecile",
+  "last_name": "Plumstead",
+  "job_role": "Customer Support Manager",
+  "office_loc": "New York",
+  "phone_no": "382-266-4050",
+  "salary": "$130453.77",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624eb"
+  },
+  "id": 787,
+  "first_name": "Cori",
+  "last_name": "Paddeley",
+  "job_role": "Customer Support Manager",
+  "office_loc": "San Diego",
+  "phone_no": "317-278-1182",
+  "salary": "$122765.77",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624ef"
+  },
+  "id": 791,
+  "first_name": "Odetta",
+  "last_name": "Northedge",
+  "job_role": "Project Manager",
+  "office_loc": "Houston",
+  "phone_no": "813-510-7482",
+  "salary": "$80502.71",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5624ff"
+  },
+  "id": 807,
+  "first_name": "Adda",
+  "last_name": "Robshaw",
+  "job_role": "Program Manager",
+  "office_loc": "St Louis",
+  "phone_no": "306-344-8996",
+  "salary": "$82668.73",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562500"
+  },
+  "id": 808,
+  "first_name": "Catherina",
+  "last_name": "Ever",
+  "job_role": "Program Manager",
+  "office_loc": "Hartford",
+  "phone_no": "661-746-1605",
+  "salary": "$48695.79",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562501"
+  },
+  "id": 809,
+  "first_name": "Consolata",
+  "last_name": "Treppas",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Portland",
+  "phone_no": "834-640-3507",
+  "salary": "$69322.42",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562506"
+  },
+  "id": 814,
+  "first_name": "Braden",
+  "last_name": "McGillivrie",
+  "job_role": "Program Manager",
+  "office_loc": "Hartford",
+  "phone_no": "462-760-8810",
+  "salary": "$124471.69",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56250b"
+  },
+  "id": 819,
+  "first_name": "Wylie",
+  "last_name": "Splain",
+  "job_role": "Program Manager",
+  "office_loc": "London",
+  "phone_no": "510-566-9728",
+  "salary": "$61536.68",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562514"
+  },
+  "id": 828,
+  "first_name": "Cathrin",
+  "last_name": "Claesens",
+  "job_role": "Product Manager",
+  "office_loc": "Boston",
+  "phone_no": "354-667-3639",
+  "salary": "$70004.16",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56251b"
+  },
+  "id": 835,
+  "first_name": "Starla",
+  "last_name": "Mycock",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Atlanta",
+  "phone_no": "837-913-9034",
+  "salary": "$83489.38",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56251e"
+  },
+  "id": 838,
+  "first_name": "Gale",
+  "last_name": "Casol",
+  "job_role": "Program Manager",
+  "office_loc": "Irvine",
+  "phone_no": "586-719-8813",
+  "salary": "$84366.52",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56252c"
+  },
+  "id": 852,
+  "first_name": "Cristionna",
+  "last_name": "Whiscard",
+  "job_role": "Project Manager",
+  "office_loc": "Dallas",
+  "phone_no": "613-301-7910",
+  "salary": "$90850.35",
+  "is_HR": null,
+  "is_manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56253f"
+  },
+  "id": 871,
+  "first_name": "Lay",
+  "last_name": "Jillions",
+  "job_role": "Product Manager",
+  "office_loc": "Irvine",
+  "phone_no": "700-617-2950",
+  "salary": "$54049.62",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562546"
+  },
+  "id": 878,
+  "first_name": "Giraldo",
+  "last_name": "Charrett",
+  "job_role": "Program Manager",
+  "office_loc": "New York",
+  "phone_no": "340-875-0308",
+  "salary": "$104520.45",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562548"
+  },
+  "id": 880,
+  "first_name": "Elliott",
+  "last_name": "Bountiff",
+  "job_role": "Product Manager",
+  "office_loc": "New York",
+  "phone_no": "756-396-4608",
+  "salary": "$48055.37",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56255f"
+  },
+  "id": 903,
+  "first_name": "Raven",
+  "last_name": "Sharville",
+  "job_role": "Program Manager",
+  "office_loc": "St Louis",
+  "phone_no": "599-467-8014",
+  "salary": "$77287.09",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562565"
+  },
+  "id": 909,
+  "first_name": "Faun",
+  "last_name": "Butten",
+  "job_role": "Project Manager",
+  "office_loc": "San Diego",
+  "phone_no": "729-681-3797",
+  "salary": "$105408.59",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562567"
+  },
+  "id": 911,
+  "first_name": "Mendel",
+  "last_name": "Sheldon",
+  "job_role": "Project Manager",
+  "office_loc": "Dallas",
+  "phone_no": "295-877-3570",
+  "salary": "$88346.41",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de56256c"
+  },
+  "id": 916,
+  "first_name": "Alidia",
+  "last_name": "Cobleigh",
+  "job_role": "Project Manager",
+  "office_loc": "Dallas",
+  "phone_no": "583-757-8548",
+  "salary": "$60288.05",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562571"
+  },
+  "id": 921,
+  "first_name": "Ruthy",
+  "last_name": "Lurcock",
+  "job_role": "Program Manager",
+  "office_loc": "San Diego",
+  "phone_no": "113-118-9669",
+  "salary": "$128775.84",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562578"
+  },
+  "id": 928,
+  "first_name": "Alicea",
+  "last_name": "Welland",
+  "job_role": "Customer Support Manager",
+  "office_loc": "Minneapolis",
+  "phone_no": "204-401-8873",
+  "salary": "$77159.89",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562580"
+  },
+  "id": 936,
+  "first_name": "Paxon",
+  "last_name": "Matkin",
+  "job_role": "Product Manager",
+  "office_loc": "St Paul",
+  "phone_no": "338-376-8895",
+  "salary": "$91414.28",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562586"
+  },
+  "id": 942,
+  "first_name": "Granville",
+  "last_name": "Farndell",
+  "job_role": "Product Manager",
+  "office_loc": "Boston",
+  "phone_no": "757-343-0161",
+  "salary": "$107457.52",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de562592"
+  },
+  "id": 954,
+  "first_name": "Robinet",
+  "last_name": "Unitt",
+  "job_role": "Project Manager",
+  "office_loc": "St Paul",
+  "phone_no": "207-487-3361",
+  "salary": "$54980.47",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5625a3"
+  },
+  "id": 971,
+  "first_name": "Noami",
+  "last_name": "Tumayan",
+  "job_role": "Product Manager",
+  "office_loc": "Providence",
+  "phone_no": "866-129-0816",
+  "salary": "$133346.52",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5625a8"
+  },
+  "id": 976,
+  "first_name": "Bev",
+  "last_name": "Britland",
+  "job_role": "Product Manager",
+  "office_loc": "New York",
+  "phone_no": "125-648-1263",
+  "salary": "$100860.34",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5625bf"
+  },
+  "id": 999,
+  "first_name": "Fianna",
+  "last_name": "Nornable",
+  "job_role": "Project Manager",
+  "office_loc": "London",
+  "phone_no": "799-650-7591",
+  "salary": "$84284.09",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+},
+{
+  "_id": {
+    "$oid": "67dad53561bddf67de5625c0"
+  },
+  "id": 1000,
+  "first_name": "Gonzales",
+  "last_name": "Pover",
+  "job_role": "Project Manager",
+  "office_loc": "Hartford",
+  "phone_no": "457-189-9019",
+  "salary": "$85982.55",
+  "is_HR": null,
+  "is_Manager": null,
+  "manager_id": null
+}]

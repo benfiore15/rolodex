@@ -13,6 +13,7 @@ const url = process.env.MONGO_DB_URL;
 const dbName = process.env.MONGO_DB;
 const collectionName = process.env.MONGO_DB_COLLECTION;
 const hrcollectionName = process.env.HR_MONGO_DB_COLLECTION;
+const mgmtcollectionName= process.env.MGMT_MONGO_DB_COLLECTION;
 
 // Server Port Config -- @ localhost 3000
 const app = express();
@@ -49,7 +50,21 @@ app.get('/hr', async (req, res) => {
         console.log(hr);
     } catch (err) {
         console.error("Error:", err);
-        res.status(500).send("ERROR: Unable to find people from server");
+        res.status(500).send("ERROR: Unable to find human resources from server");
+    }
+});
+
+app.get('/mgmt', async (req, res) => {
+    try {
+        const client = await MongoClient.connect(url);
+        const db = client.db(dbName);
+        const collection = db.collection(mgmtcollectionName);
+        const mgmt = await collection.find({}).toArray();
+        res.json(mgmt);
+        console.log(mgmt);
+    } catch (err) {
+        console.error("Error:", err);
+        res.status(500).send("ERROR: Unable to find managemnt from server");
     }
 });
 

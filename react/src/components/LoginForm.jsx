@@ -1,23 +1,39 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../hooks/AuthContext';
+// import { useAuth } from '../hooks/AuthContext';
 
-function LoginForm() {
+function LoginForm({setLoggedInUser, setUserType }) {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    const { login } = useAuth();
     const navigate = useNavigate();
 
     const handleLogin = async (event) => {
         event.preventDefault();
-        await login(username, password);
-        console.log(username, password);
-        navigate('/add');
+        const response = await fetch('http://localhost:3000/login', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username: username, password: password}),
+        });
+
+        const data = await response.json();
+        if (data.success) {
+        alert(data.message)
+        console.log(`User Id: ${data.userID} || Name: ${data.name}`)
+        const role = data.role
+
+        setLoggedInUser({userID: data.userID, name: data.name, role: data.role})
+        setUserType(role)
+        navigate('/'); // Redirect to the root page
+        } else {
+        alert('Login failed!');
+        }
     };
 
     return (
         <div className="container">
-            <form className="mt-5">
+            <form onSubmit={event => handleLogin(event)} className="mt-5">
                 <div className="form-group">
                     <label htmlFor="username">Username</label>
                     <input

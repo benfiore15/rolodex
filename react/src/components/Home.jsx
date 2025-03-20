@@ -8,19 +8,11 @@ import reactLogo from '../assets/react.svg'
 import viteLogo from '/vite.svg'
 
 
-const Home = ({data, userType, userTypeInput, handleUserTypeInputChange, handleSubmit}) => {
+const Home = ({data, loggedinUser, userType, userTypeInput, handleUserTypeInputChange, handleSubmit}) => {
     return (
         <>
-            <div>
-                <a href="https://vite.dev" target="_blank">
-                <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                <img src={reactLogo} className="logo react" alt="React logo" />
-                </a>
-            </div>
-            <h1>Vite + React</h1>
-
+            {loggedinUser ? <h1> Welcome, {loggedinUser.name}</h1> : <>
+            </>}
 
             <div className="card">
                 {/* <button onClick={() => setCount((count) => count + 1)}>
@@ -41,12 +33,12 @@ const Home = ({data, userType, userTypeInput, handleUserTypeInputChange, handleS
 
             <br></br>
 
-            <RequireAuth>
+            
                 <div className="card">
                     <h1> List of People </h1>
-                    <Table tableData={data} userRole={userType} />
+                    {console.log(loggedinUser)}
+                    {loggedinUser ? <Table tableData={data} userRole={userType} /> : <></>}
                 </div>
-            </RequireAuth>
         </>
     );
 };

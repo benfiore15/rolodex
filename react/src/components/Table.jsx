@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-function Table({ tableData, userRole }) {
+function Table({ tableData, userId, userRole }) {
 
-    const [salaryStyle, setSalaryStyle] = useState([])
-    // const [lockedSalary, setLockedSalary] = useState(null)
+  const [salaryStyle, setSalaryStyle] = useState([])
 
     // Function to add a class
     const addSalaryClass = (newClass) => {
@@ -14,6 +13,18 @@ function Table({ tableData, userRole }) {
     const removeSalaryClass = (classToRemove) => {
       setSalaryStyle((prevClasses) => prevClasses.filter(c => c !== classToRemove));
     };
+
+    // const [lockedSalary, setLockedSalary] = useState(null)
+
+    useEffect(() => {
+      console.log(`RECEIVED USER TYPE FROM TABLE: ${userRole}`)
+      if (!['HR', 'MGMT'].includes(userRole)) {
+        console.log("USER LOCKED FROM SEEING SALARIES")
+        // addSalaryClass('salary-blur')
+        setSalaryStyle(['salary-blur'])
+        console.log(`Salary Column Classes: ${salaryStyle}`)
+      }
+    }, [])
 
     // const formatNumToSalary = (salaryAmt) => "$" + salaryAmt.toLocaleString('en-US');
 
@@ -37,15 +48,6 @@ function Table({ tableData, userRole }) {
     //       window.removeEventListener('storage', handleStorageChange);
     //     };
     //   }, []);
-
-    // useEffect(() => {
-    //     console.log(`RECEIVED USER TYPE FROM TABLE: ${userRole}`)
-    //     if (!['HR', 'Manager'].includes(userRole)) {
-    //         console.log("USER LOCKED FROM SEEING SALARIES")
-    //         addSalaryClass('salary-blur')
-    //         console.log(`Salary Column Classes: ${salaryStyle}`)
-    //     }
-    // }, [])
 
 
   return (

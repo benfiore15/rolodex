@@ -86,7 +86,7 @@ app.post('/login', async (req, res) => {
 
             if (username === "mGaine") nameToFind = {"firstName": "Marilin", "lastName": "Gaine"}
             else if (username === "lCharter") nameToFind = {"firstName": "Luke", "lastName": "Charter"}
-            else if (username === "cZebedde") nameToFind = {"firstName": "Christel", "lastName": "Zedeebe"}
+            else if (username === "cZebedee") nameToFind = {"firstName": "Christel", "lastName": "Zebedee"}
             console.log(`Looking for ${nameToFind.firstName + nameToFind.lastName}`)
 
             try {
@@ -94,7 +94,13 @@ app.post('/login', async (req, res) => {
                 const db = client.db(dbName);
                 const collection = db.collection(collectionName);
                 const user = await collection.findOne({first_name: nameToFind.firstName, last_name: nameToFind.lastName});
-                console.log(user.job_role);
+                
+                if (user.job_role.includes("HR")) {
+                    user.job_role = "HR"
+                } else if (user.job_role.includes("Manager")) {
+                    user.job_role = "MGMT"
+                }
+                console.log(`ROLE ASSIGNED ==> ${user.job_role}`)
 
                 res.status(200).json({ success: true, message: 'Login successful!', userID: user._id, name: user.first_name + " " + user.last_name, role: user.job_role});
             } catch (err) {

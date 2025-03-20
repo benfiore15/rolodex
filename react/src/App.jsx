@@ -14,7 +14,6 @@ import LoginForm from "./components/LoginForm.jsx";
 import Table from './components/Table.jsx';
 
 import HR_Table from "./HR_Table";
-import Mgmt_Table from "./MGMT_Table.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -146,30 +145,11 @@ function App() {
   //   fetchData();
   // }, [])
 
-  const [mgmt_data, setMgmtData] = useState([])
-
-  useEffect(() => {
-    const fetchData = async () => {
-        try {
-            const response = await fetch(import.meta.env.VITE_MGMT_API_URL);
-            if (!response.ok) {
-                throw new Error('Data could not be fetched!');
-            }
-            const json_response = await response.json();
-            setMgmtData(json_response); // assign JSON response to the data variable.
-        } catch (error) {
-            console.error('Error fetching socks:', error);
-        }
-    };
-
-    fetchData();
-  }, [])
-
   return (
     <>
     <Router>
 
-      <Header />
+      <Header loggedinUser={loggedinUser}/>
 
       <div>
         <Routes>
@@ -184,11 +164,6 @@ function App() {
         <h1> Human Resources </h1>
         <HR_Table HRTableData={hr_data} />
       </div> */}
-
-      <div className="card">
-        <h1> Management </h1>
-        <Mgmt_Table MgmtTableData={mgmt_data} />
-      </div>
 
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more

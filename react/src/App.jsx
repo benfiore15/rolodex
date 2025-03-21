@@ -14,6 +14,7 @@ import LoginForm from "./components/LoginForm.jsx";
 import Table from './components/Table.jsx';
 
 import HR_Table from "./HR_Table";
+import PredictSalary from "./components/PredictSalary.jsx"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -157,6 +158,7 @@ function App() {
             <Route exact path="/" element={loggedinUser.name ? <Home data={data} loggedinUser={loggedinUser} userType={userType} handleUserTypeInputChange={handleUserTypeInputChange} handleSubmit={handleSubmit}/> : <LoginForm setLoggedInUser={setLoggedInUser} setUserType={setUserType}/>} />
             <Route path="/login" element={<LoginForm setLoggedInUser={setLoggedInUser} setUserType={setUserType}/>} />
             <Route path="/dir" element={<Home data={data} loggedinUser={loggedinUser} userType={userType} handleUserTypeInputChange={handleUserTypeInputChange} handleSubmit={handleSubmit}/>} />
+            <Route path="/predictSalary" element={<PredictSalary />} />
             {/* {user ? <SearchPage user={user} /> : <LoginPage setUser={setUser} />} */}
         </Routes>
       </div>

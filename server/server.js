@@ -67,15 +67,18 @@ app.get('/mgmt', async (req, res) => {
     }
 });
 
-app.post('/predict', async (req, res) => {
+app.post('/predictSal', async (req, res) => {
     try {
         const {job_role, office_loc} = req.body;
+
+        console.log(`DATA RECEIVED ==> \n LOCATION: ${office_loc} || \n ROLE: ${job_role}`)
+
         const response = await fetch('http://localhost:5000/predict', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(job_role, office_loc)
+            body: JSON.stringify([{'job_role': job_role, 'office_loc': office_loc}])
         });
         const responseData = await response.json();
         res.json(responseData);

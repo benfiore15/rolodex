@@ -12,6 +12,13 @@ const Header = ({loggedInUser}) => {
                 <a className="navbar-brand" href="#">
                     RoloNet
                 </a>
+
+                <div className="ml-auto">
+                    <Link className="nav-link" to="/predictSalary">
+                        Predict Salary
+                    </Link>
+                </div>
+
                 {loggedInUser ? <>
                     <div className="ml-auto">
                     <Link className="nav-link" to="/login">
